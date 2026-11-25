@@ -1,0 +1,126 @@
+{
+    "classes": [
+        {
+            "className": "QLayout",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 40,
+                    "name": "SizeConstraint",
+                    "values": [
+                        "SetDefaultConstraint",
+                        "SetNoConstraint",
+                        "SetMinimumSize",
+                        "SetFixedSize",
+                        "SetMaximumSize",
+                        "SetMinAndMaxSize"
+                    ]
+                }
+            ],
+            "lineNumber": 26,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 31,
+                    "name": "spacing",
+                    "override": false,
+                    "read": "spacing",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSpacing"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 32,
+                    "name": "contentsMargins",
+                    "override": false,
+                    "read": "contentsMargins",
+                    "required": false,
+                    "reset": "unsetContentsMargins",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QMargins",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setContentsMargins"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 35,
+                    "name": "sizeConstraint",
+                    "override": false,
+                    "read": "sizeConstraint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SizeConstraint",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSizeConstraint"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 36,
+                    "name": "horizontalSizeConstraint",
+                    "override": false,
+                    "read": "horizontalSizeConstraint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SizeConstraint",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setHorizontalSizeConstraint"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 37,
+                    "name": "verticalSizeConstraint",
+                    "override": false,
+                    "read": "verticalSizeConstraint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SizeConstraint",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setVerticalSizeConstraint"
+                }
+            ],
+            "qualifiedClassName": "QLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QLayoutItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlayout.h",
+    "outputRevision": 69
+}

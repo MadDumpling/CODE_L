@@ -1,0 +1,149 @@
+{
+    "classes": [
+        {
+            "className": "QToolButton",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 31,
+                    "name": "ToolButtonPopupMode",
+                    "values": [
+                        "DelayedPopup",
+                        "MenuButtonPopup",
+                        "InstantPopup"
+                    ]
+                }
+            ],
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "popupMode",
+                    "override": false,
+                    "read": "popupMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ToolButtonPopupMode",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setPopupMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 26,
+                    "name": "toolButtonStyle",
+                    "override": false,
+                    "read": "toolButtonStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ToolButtonStyle",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setToolButtonStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 27,
+                    "name": "autoRaise",
+                    "override": false,
+                    "read": "autoRaise",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAutoRaise"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 28,
+                    "name": "arrowType",
+                    "override": false,
+                    "read": "arrowType",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ArrowType",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setArrowType"
+                }
+            ],
+            "qualifiedClassName": "QToolButton",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAction*"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 70,
+                    "name": "triggered",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 64,
+                    "name": "showMenu",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "style",
+                            "type": "Qt::ToolButtonStyle"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 66,
+                    "name": "setToolButtonStyle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAction*"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 67,
+                    "name": "setDefaultAction",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtoolbutton.h",
+    "outputRevision": 69
+}

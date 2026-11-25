@@ -1,0 +1,94 @@
+{
+    "classes": [
+        {
+            "className": "QFontVariableAxis",
+            "gadget": true,
+            "lineNumber": 17,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 22,
+                    "name": "tag",
+                    "override": false,
+                    "read": "tagString",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QByteArray",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 23,
+                    "name": "name",
+                    "override": false,
+                    "read": "name",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 24,
+                    "name": "minimumValue",
+                    "override": false,
+                    "read": "minimumValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 25,
+                    "name": "maximumValue",
+                    "override": false,
+                    "read": "maximumValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 26,
+                    "name": "defaultValue",
+                    "override": false,
+                    "read": "defaultValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "QFontVariableAxis"
+        }
+    ],
+    "inputFile": "qfontvariableaxis.h",
+    "outputRevision": 69
+}

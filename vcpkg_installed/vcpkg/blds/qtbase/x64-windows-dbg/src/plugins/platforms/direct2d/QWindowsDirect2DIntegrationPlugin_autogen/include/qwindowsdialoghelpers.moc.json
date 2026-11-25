@@ -1,0 +1,157 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsNativeDialogBase",
+            "lineNumber": 131,
+            "object": true,
+            "qualifiedClassName": "QWindowsNativeDialogBase",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 140,
+                    "name": "accepted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 141,
+                    "name": "rejected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 144,
+                    "name": "close",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsNativeFileDialogBase",
+            "lineNumber": 729,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 732,
+                    "name": "hideFiltersDetails",
+                    "override": false,
+                    "read": "hideFiltersDetails",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setHideFiltersDetails"
+                }
+            ],
+            "qualifiedClassName": "QWindowsNativeFileDialogBase",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "directory",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 767,
+                    "name": "directoryEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "file",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 768,
+                    "name": "currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filter",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 769,
+                    "name": "filterSelected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 772,
+                    "name": "close",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsNativeDialogBase"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsNativeSaveFileDialog",
+            "lineNumber": 1244,
+            "object": true,
+            "qualifiedClassName": "QWindowsNativeSaveFileDialog",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsNativeFileDialogBase"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsXpNativeFileDialog",
+            "lineNumber": 1627,
+            "object": true,
+            "qualifiedClassName": "QWindowsXpNativeFileDialog",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 1641,
+                    "name": "close",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsNativeDialogBase"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsdialoghelpers.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,313 @@
+{
+    "classes": [
+        {
+            "className": "QTabWidget",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 75,
+                    "name": "TabPosition",
+                    "values": [
+                        "North",
+                        "South",
+                        "West",
+                        "East"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 86,
+                    "name": "TabShape",
+                    "values": [
+                        "Rounded",
+                        "Triangular"
+                    ]
+                }
+            ],
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 23,
+                    "name": "tabPosition",
+                    "override": false,
+                    "read": "tabPosition",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "TabPosition",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setTabPosition"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 24,
+                    "name": "tabShape",
+                    "override": false,
+                    "read": "tabShape",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "TabShape",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setTabShape"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 25,
+                    "name": "currentIndex",
+                    "notify": "currentChanged",
+                    "override": false,
+                    "read": "currentIndex",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCurrentIndex"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 26,
+                    "name": "count",
+                    "override": false,
+                    "read": "count",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 27,
+                    "name": "iconSize",
+                    "override": false,
+                    "read": "iconSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIconSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 28,
+                    "name": "elideMode",
+                    "override": false,
+                    "read": "elideMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::TextElideMode",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setElideMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 29,
+                    "name": "usesScrollButtons",
+                    "override": false,
+                    "read": "usesScrollButtons",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setUsesScrollButtons"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 30,
+                    "name": "documentMode",
+                    "override": false,
+                    "read": "documentMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDocumentMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 31,
+                    "name": "tabsClosable",
+                    "override": false,
+                    "read": "tabsClosable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setTabsClosable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 32,
+                    "name": "movable",
+                    "override": false,
+                    "read": "isMovable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMovable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "lineNumber": 33,
+                    "name": "tabBarAutoHide",
+                    "override": false,
+                    "read": "tabBarAutoHide",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setTabBarAutoHide"
+                }
+            ],
+            "qualifiedClassName": "QTabWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 123,
+                    "name": "currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 124,
+                    "name": "tabCloseRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 125,
+                    "name": "tabBarClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 126,
+                    "name": "tabBarDoubleClicked",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 119,
+                    "name": "setCurrentIndex",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "widget",
+                            "type": "QWidget*"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 120,
+                    "name": "setCurrentWidget",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtabwidget.h",
+    "outputRevision": 69
+}

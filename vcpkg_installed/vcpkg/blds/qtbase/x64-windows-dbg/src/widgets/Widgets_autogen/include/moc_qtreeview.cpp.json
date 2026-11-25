@@ -1,0 +1,464 @@
+{
+    "classes": [
+        {
+            "className": "QTreeView",
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 23,
+                    "name": "autoExpandDelay",
+                    "override": false,
+                    "read": "autoExpandDelay",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAutoExpandDelay"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 24,
+                    "name": "indentation",
+                    "override": false,
+                    "read": "indentation",
+                    "required": false,
+                    "reset": "resetIndentation",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIndentation"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 25,
+                    "name": "rootIsDecorated",
+                    "override": false,
+                    "read": "rootIsDecorated",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setRootIsDecorated"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 26,
+                    "name": "uniformRowHeights",
+                    "override": false,
+                    "read": "uniformRowHeights",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setUniformRowHeights"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 27,
+                    "name": "itemsExpandable",
+                    "override": false,
+                    "read": "itemsExpandable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setItemsExpandable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 28,
+                    "name": "sortingEnabled",
+                    "override": false,
+                    "read": "isSortingEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSortingEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 29,
+                    "name": "animated",
+                    "override": false,
+                    "read": "isAnimated",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAnimated"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 30,
+                    "name": "allColumnsShowFocus",
+                    "override": false,
+                    "read": "allColumnsShowFocus",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAllColumnsShowFocus"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 31,
+                    "name": "wordWrap",
+                    "override": false,
+                    "read": "wordWrap",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setWordWrap"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 32,
+                    "name": "headerHidden",
+                    "override": false,
+                    "read": "isHeaderHidden",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setHeaderHidden"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "lineNumber": 33,
+                    "name": "expandsOnDoubleClick",
+                    "override": false,
+                    "read": "expandsOnDoubleClick",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setExpandsOnDoubleClick"
+                }
+            ],
+            "qualifiedClassName": "QTreeView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 116,
+                    "name": "expanded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 117,
+                    "name": "collapsed",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 120,
+                    "name": "hideColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 121,
+                    "name": "showColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 122,
+                    "name": "expand",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 123,
+                    "name": "collapse",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 124,
+                    "name": "resizeColumnToContents",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "order",
+                            "type": "Qt::SortOrder"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 125,
+                    "name": "sortByColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 126,
+                    "name": "expandAll",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "depth",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 127,
+                    "name": "expandRecursively",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 10,
+                    "isCloned": true,
+                    "lineNumber": 127,
+                    "name": "expandRecursively",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "lineNumber": 128,
+                    "name": "collapseAll",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "depth",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 129,
+                    "name": "expandToDepth",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldSize",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newSize",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 132,
+                    "name": "columnResized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "oldCount",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 14,
+                    "lineNumber": 133,
+                    "name": "columnCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 15,
+                    "lineNumber": 134,
+                    "name": "columnMoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 16,
+                    "lineNumber": 135,
+                    "name": "reexpand",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "first",
+                            "type": "int"
+                        },
+                        {
+                            "name": "last",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 17,
+                    "lineNumber": 136,
+                    "name": "rowsRemoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 18,
+                    "lineNumber": 137,
+                    "name": "verticalScrollbarValueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtreeview.h",
+    "outputRevision": 69
+}

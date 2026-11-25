@@ -1,0 +1,9 @@
+EXPORTS 
+	__local_stdio_printf_options
+	_snprintf
+	_vfprintf_l
+	_vsnprintf
+	_vsnprintf_l
+	entity_lookup
+	fprintf
+	md_html

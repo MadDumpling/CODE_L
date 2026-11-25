@@ -1,0 +1,80 @@
+{
+    "classes": [
+        {
+            "className": "QPushButton",
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "autoDefault",
+                    "override": false,
+                    "read": "autoDefault",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAutoDefault"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 25,
+                    "name": "default",
+                    "override": false,
+                    "read": "isDefault",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDefault"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 26,
+                    "name": "flat",
+                    "override": false,
+                    "read": "isFlat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFlat"
+                }
+            ],
+            "qualifiedClassName": "QPushButton",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 52,
+                    "name": "showMenu",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpushbutton.h",
+    "outputRevision": 69
+}

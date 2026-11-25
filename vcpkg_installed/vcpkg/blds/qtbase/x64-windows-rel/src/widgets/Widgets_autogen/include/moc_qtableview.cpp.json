@@ -1,0 +1,373 @@
+{
+    "classes": [
+        {
+            "className": "QTableView",
+            "lineNumber": 18,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 21,
+                    "name": "showGrid",
+                    "override": false,
+                    "read": "showGrid",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setShowGrid"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 22,
+                    "name": "gridStyle",
+                    "override": false,
+                    "read": "gridStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::PenStyle",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setGridStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 23,
+                    "name": "sortingEnabled",
+                    "override": false,
+                    "read": "isSortingEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSortingEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 24,
+                    "name": "wordWrap",
+                    "override": false,
+                    "read": "wordWrap",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setWordWrap"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 26,
+                    "name": "cornerButtonEnabled",
+                    "override": false,
+                    "read": "isCornerButtonEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCornerButtonEnabled"
+                }
+            ],
+            "qualifiedClassName": "QTableView",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 88,
+                    "name": "selectRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 89,
+                    "name": "selectColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 90,
+                    "name": "hideRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 91,
+                    "name": "hideColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 92,
+                    "name": "showRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 93,
+                    "name": "showColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 94,
+                    "name": "resizeRowToContents",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 95,
+                    "name": "resizeRowsToContents",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 96,
+                    "name": "resizeColumnToContents",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "lineNumber": 97,
+                    "name": "resizeColumnsToContents",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "order",
+                            "type": "Qt::SortOrder"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 98,
+                    "name": "sortByColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "show",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 99,
+                    "name": "setShowGrid",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 102,
+                    "name": "rowMoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 103,
+                    "name": "columnMoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldHeight",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newHeight",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 14,
+                    "lineNumber": 104,
+                    "name": "rowResized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldWidth",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newWidth",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 15,
+                    "lineNumber": 105,
+                    "name": "columnResized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "oldCount",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 16,
+                    "lineNumber": 106,
+                    "name": "rowCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "oldCount",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 17,
+                    "lineNumber": 107,
+                    "name": "columnCountChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtableview.h",
+    "outputRevision": 69
+}

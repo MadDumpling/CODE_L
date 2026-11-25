@@ -1,0 +1,149 @@
+{
+    "classes": [
+        {
+            "className": "QFrame",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 39,
+                    "name": "Shape",
+                    "values": [
+                        "NoFrame",
+                        "Box",
+                        "Panel",
+                        "WinPanel",
+                        "HLine",
+                        "VLine",
+                        "StyledPanel"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 49,
+                    "name": "Shadow",
+                    "values": [
+                        "Plain",
+                        "Raised",
+                        "Sunken"
+                    ]
+                }
+            ],
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 21,
+                    "name": "frameShape",
+                    "override": false,
+                    "read": "frameShape",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Shape",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFrameShape"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 22,
+                    "name": "frameShadow",
+                    "override": false,
+                    "read": "frameShadow",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Shadow",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFrameShadow"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 23,
+                    "name": "lineWidth",
+                    "override": false,
+                    "read": "lineWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setLineWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 24,
+                    "name": "midLineWidth",
+                    "override": false,
+                    "read": "midLineWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMidLineWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 25,
+                    "name": "frameWidth",
+                    "override": false,
+                    "read": "frameWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 26,
+                    "name": "frameRect",
+                    "override": false,
+                    "read": "frameRect",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFrameRect"
+                }
+            ],
+            "qualifiedClassName": "QFrame",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qframe.h",
+    "outputRevision": 69
+}

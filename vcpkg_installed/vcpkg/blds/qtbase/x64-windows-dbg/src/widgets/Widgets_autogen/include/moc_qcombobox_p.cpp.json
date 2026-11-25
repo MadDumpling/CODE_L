@@ -1,0 +1,138 @@
+{
+    "classes": [
+        {
+            "className": "QComboBoxListView",
+            "lineNumber": 44,
+            "object": true,
+            "qualifiedClassName": "QComboBoxListView",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QListView"
+                }
+            ]
+        },
+        {
+            "className": "QComboBoxPrivateScroller",
+            "lineNumber": 60,
+            "object": true,
+            "qualifiedClassName": "QComboBoxPrivateScroller",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 82,
+                    "name": "doScroll",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        },
+        {
+            "className": "QComboBoxPrivateContainer",
+            "lineNumber": 90,
+            "object": true,
+            "qualifiedClassName": "QComboBoxPrivateContainer",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 128,
+                    "name": "itemSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 129,
+                    "name": "resetButton",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 110,
+                    "name": "scrollItemView",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 111,
+                    "name": "hideScrollers",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 112,
+                    "name": "updateScrollers",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 113,
+                    "name": "viewDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFrame"
+                }
+            ]
+        },
+        {
+            "className": "QComboMenuDelegate",
+            "lineNumber": 143,
+            "object": true,
+            "qualifiedClassName": "QComboMenuDelegate",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemDelegate"
+                }
+            ]
+        },
+        {
+            "className": "QComboBoxDelegate",
+            "lineNumber": 166,
+            "object": true,
+            "qualifiedClassName": "QComboBoxDelegate",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QStyledItemDelegate"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcombobox_p.h",
+    "outputRevision": 69
+}

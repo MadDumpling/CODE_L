@@ -1,0 +1,9 @@
+# ninja log v7
+16	85	8173416890842705	src/CMakeFiles/md4c-html.dir/entity.c.obj	c0331e9ed9b35a8f
+12	92	8173416890797502	src/CMakeFiles/md4c-html.dir/md4c-html.c.obj	54bfee1c25f21780
+7	128	8173416890747471	src/CMakeFiles/md4c.dir/md4c.c.obj	dada125df765c5de
+128	464	8173416895052154	src/md4c.dll	bb4d0b31530b4f0d
+128	464	8173416895052154	src/md4c.lib	bb4d0b31530b4f0d
+465	781	8173416898214043	src/md4c-html.dll	9f8bde332f1449fd
+465	781	8173416898214043	src/md4c-html.lib	9f8bde332f1449fd
+782	1131	8173416898500728	CMakeFiles/install.util	949cc9303f9eb792

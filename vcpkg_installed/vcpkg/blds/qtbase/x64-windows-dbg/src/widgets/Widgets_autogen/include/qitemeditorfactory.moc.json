@@ -1,0 +1,78 @@
+{
+    "classes": [
+        {
+            "className": "QBooleanComboBox",
+            "lineNumber": 38,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 41,
+                    "name": "value",
+                    "override": false,
+                    "read": "value",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": true,
+                    "virtual": false,
+                    "write": "setValue"
+                }
+            ],
+            "qualifiedClassName": "QBooleanComboBox",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QComboBox"
+                }
+            ]
+        },
+        {
+            "className": "QUIntSpinBox",
+            "lineNumber": 54,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 57,
+                    "name": "value",
+                    "notify": "uintValueChanged",
+                    "override": false,
+                    "read": "uintValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "uint",
+                    "user": true,
+                    "virtual": false,
+                    "write": "setUIntValue"
+                }
+            ],
+            "qualifiedClassName": "QUIntSpinBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 76,
+                    "name": "uintValueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSpinBox"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qitemeditorfactory.cpp",
+    "outputRevision": 69
+}

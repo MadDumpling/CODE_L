@@ -1,0 +1,27 @@
+{
+    "classes": [
+        {
+            "className": "QOpenGLWindow",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "QOpenGLWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 49,
+                    "name": "frameSwapped",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPaintDeviceWindow"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qopenglwindow.h",
+    "outputRevision": 69
+}

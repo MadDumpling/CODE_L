@@ -1,0 +1,28 @@
+{
+    "classes": [
+        {
+            "className": "QWindowContainer",
+            "lineNumber": 26,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "isConst": true,
+                    "lineNumber": 34,
+                    "name": "containedWindow",
+                    "returnType": "QWindow*"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QWindowContainer",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowcontainer_p.h",
+    "outputRevision": 69
+}

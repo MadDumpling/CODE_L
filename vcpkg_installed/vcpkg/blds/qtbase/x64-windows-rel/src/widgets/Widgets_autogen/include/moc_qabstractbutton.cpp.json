@@ -1,0 +1,306 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractButton",
+            "lineNumber": 23,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 27,
+                    "name": "text",
+                    "override": false,
+                    "read": "text",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 28,
+                    "name": "icon",
+                    "override": false,
+                    "read": "icon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QIcon",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIcon"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 29,
+                    "name": "iconSize",
+                    "override": false,
+                    "read": "iconSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIconSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 31,
+                    "name": "shortcut",
+                    "override": false,
+                    "read": "shortcut",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QKeySequence",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setShortcut"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 33,
+                    "name": "checkable",
+                    "override": false,
+                    "read": "isCheckable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCheckable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 34,
+                    "name": "checked",
+                    "notify": "toggled",
+                    "override": false,
+                    "read": "isChecked",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": true,
+                    "virtual": false,
+                    "write": "setChecked"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 35,
+                    "name": "autoRepeat",
+                    "override": false,
+                    "read": "autoRepeat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAutoRepeat"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 36,
+                    "name": "autoExclusive",
+                    "override": false,
+                    "read": "autoExclusive",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAutoExclusive"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 37,
+                    "name": "autoRepeatDelay",
+                    "override": false,
+                    "read": "autoRepeatDelay",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAutoRepeatDelay"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 38,
+                    "name": "autoRepeatInterval",
+                    "override": false,
+                    "read": "autoRepeatInterval",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAutoRepeatInterval"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 10,
+                    "lineNumber": 39,
+                    "name": "down",
+                    "override": false,
+                    "read": "isDown",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDown"
+                }
+            ],
+            "qualifiedClassName": "QAbstractButton",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 90,
+                    "name": "pressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 91,
+                    "name": "released",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "checked",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 92,
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "isCloned": true,
+                    "lineNumber": 92,
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "checked",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 93,
+                    "name": "toggled",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "size",
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 83,
+                    "name": "setIconSize",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 84,
+                    "name": "animateClick",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 85,
+                    "name": "click",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 86,
+                    "name": "toggle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 87,
+                    "name": "setChecked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractbutton.h",
+    "outputRevision": 69
+}

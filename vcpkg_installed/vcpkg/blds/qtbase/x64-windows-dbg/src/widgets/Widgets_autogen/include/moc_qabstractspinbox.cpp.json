@@ -1,0 +1,301 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractSpinBox",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 45,
+                    "name": "ButtonSymbols",
+                    "values": [
+                        "UpDownArrows",
+                        "PlusMinus",
+                        "NoButtons"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 51,
+                    "name": "CorrectionMode",
+                    "values": [
+                        "CorrectToPreviousValue",
+                        "CorrectToNearestValue"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 96,
+                    "name": "StepType",
+                    "values": [
+                        "DefaultStepType",
+                        "AdaptiveDecimalStepType"
+                    ]
+                }
+            ],
+            "lineNumber": 21,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "wrapping",
+                    "override": false,
+                    "read": "wrapping",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setWrapping"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 26,
+                    "name": "frame",
+                    "override": false,
+                    "read": "hasFrame",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFrame"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 27,
+                    "name": "alignment",
+                    "override": false,
+                    "read": "alignment",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Alignment",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAlignment"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 28,
+                    "name": "readOnly",
+                    "override": false,
+                    "read": "isReadOnly",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setReadOnly"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 29,
+                    "name": "buttonSymbols",
+                    "override": false,
+                    "read": "buttonSymbols",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ButtonSymbols",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setButtonSymbols"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 30,
+                    "name": "specialValueText",
+                    "override": false,
+                    "read": "specialValueText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSpecialValueText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 31,
+                    "name": "text",
+                    "override": false,
+                    "read": "text",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 32,
+                    "name": "accelerated",
+                    "override": false,
+                    "read": "isAccelerated",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAccelerated"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 33,
+                    "name": "correctionMode",
+                    "override": false,
+                    "read": "correctionMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "CorrectionMode",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCorrectionMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 34,
+                    "name": "acceptableInput",
+                    "override": false,
+                    "read": "hasAcceptableInput",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "lineNumber": 35,
+                    "name": "keyboardTracking",
+                    "override": false,
+                    "read": "keyboardTracking",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setKeyboardTracking"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "lineNumber": 36,
+                    "name": "showGroupSeparator",
+                    "override": false,
+                    "read": "isGroupSeparatorShown",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setGroupSeparatorShown"
+                }
+            ],
+            "qualifiedClassName": "QAbstractSpinBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 135,
+                    "name": "editingFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 136,
+                    "name": "returnPressed",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 103,
+                    "name": "stepUp",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 104,
+                    "name": "stepDown",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 105,
+                    "name": "selectAll",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 106,
+                    "name": "clear",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractspinbox.h",
+    "outputRevision": 69
+}

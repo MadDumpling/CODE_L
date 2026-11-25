@@ -1,0 +1,48 @@
+Package: qtbase
+Version: 6.11.3
+Port-Version: 1
+Depends: md4c, pcre2, vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: afaa3a6563c4384f76705142848617f1a69525e28be08d94e3ab519621c001c3
+Description: Qt Base (Core, Gui, Widgets, Network, ...)
+Default-Features: async-io, brotli, concurrent, dbus, dnslookup, doubleconversion, freetype, gui, harfbuzz, icu, jpeg, network, opengl, openssl, pcre2, png, sessionmanager, sql, sql-psql, sql-sqlite, testlib, thread, widgets, windeployqt, zstd
+
+Package: qtbase
+Feature: doubleconversion
+Depends: double-conversion
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable double conversion support
+
+Package: qtbase
+Feature: gui
+Depends: opengl
+Architecture: x64-windows
+Multi-Arch: same
+Description: Qt Gui
+
+Package: qtbase
+Feature: opengl
+Depends: opengl
+Architecture: x64-windows
+Multi-Arch: same
+Description: OpenGL
+
+Package: qtbase
+Feature: testlib
+Architecture: x64-windows
+Multi-Arch: same
+Description: Qt Testlib
+
+Package: qtbase
+Feature: thread
+Architecture: x64-windows
+Multi-Arch: same
+Description: Thread support; provides QThread and related classes.
+
+Package: qtbase
+Feature: widgets
+Architecture: x64-windows
+Multi-Arch: same
+Description: Qt Widgets

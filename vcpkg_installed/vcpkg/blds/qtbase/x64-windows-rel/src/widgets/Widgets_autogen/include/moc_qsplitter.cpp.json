@@ -1,0 +1,119 @@
+{
+    "classes": [
+        {
+            "className": "QSplitter",
+            "lineNumber": 21,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "orientation",
+                    "override": false,
+                    "read": "orientation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Orientation",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setOrientation"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 26,
+                    "name": "opaqueResize",
+                    "override": false,
+                    "read": "opaqueResize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setOpaqueResize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 27,
+                    "name": "handleWidth",
+                    "override": false,
+                    "read": "handleWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setHandleWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 28,
+                    "name": "childrenCollapsible",
+                    "override": false,
+                    "read": "childrenCollapsible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setChildrenCollapsible"
+                }
+            ],
+            "qualifiedClassName": "QSplitter",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pos",
+                            "type": "int"
+                        },
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 73,
+                    "name": "splitterMoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFrame"
+                }
+            ]
+        },
+        {
+            "className": "QSplitterHandle",
+            "lineNumber": 98,
+            "object": true,
+            "qualifiedClassName": "QSplitterHandle",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsplitter.h",
+    "outputRevision": 69
+}

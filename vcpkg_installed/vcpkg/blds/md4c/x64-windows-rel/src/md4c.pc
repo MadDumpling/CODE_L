@@ -1,0 +1,10 @@
+prefix=C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/pkgs/md4c_x64-windows
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: MD4C
+Description: Markdown parser library with a SAX-like callback-based interface.
+Version: 0.6.0
+URL: https://github.com/mity/md4c
+Libs: -L${libdir} -lmd4c
+Cflags: -I${includedir}

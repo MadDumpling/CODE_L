@@ -1,0 +1,367 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QWindowsDirect2DNativeInterface",
+                "lineNumber": 12,
+                "object": true,
+                "qualifiedClassName": "QWindowsDirect2DNativeInterface",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsNativeInterface"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsdirect2dnativeinterface.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsUiaBaseProvider",
+                "lineNumber": 22,
+                "object": true,
+                "qualifiedClassName": "QWindowsUiaBaseProvider",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsuiabaseprovider.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsUiaMainProvider",
+                "lineNumber": 23,
+                "object": true,
+                "qualifiedClassName": "QWindowsUiaMainProvider",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsUiaBaseProvider"
+                    },
+                    {
+                        "access": "public",
+                        "name": "QComObject<IRawElementProviderSimple,IRawElementProviderFragment,IRawElementProviderFragmentRoot>"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsuiamainprovider.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsUiaProviderCache",
+                "lineNumber": 21,
+                "object": true,
+                "qualifiedClassName": "QWindowsUiaProviderCache",
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "obj",
+                                "type": "QObject*"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 31,
+                        "name": "remove",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsuiaprovidercache.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsInputContext",
+                "lineNumber": 19,
+                "object": true,
+                "qualifiedClassName": "QWindowsInputContext",
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 0,
+                        "lineNumber": 62,
+                        "name": "cursorRectChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformInputContext"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsinputcontext.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsMenuItem",
+                "lineNumber": 22,
+                "object": true,
+                "qualifiedClassName": "QWindowsMenuItem",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformMenuItem"
+                    }
+                ]
+            },
+            {
+                "className": "QWindowsMenu",
+                "lineNumber": 85,
+                "object": true,
+                "qualifiedClassName": "QWindowsMenu",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformMenu"
+                    }
+                ]
+            },
+            {
+                "className": "QWindowsPopupMenu",
+                "lineNumber": 146,
+                "object": true,
+                "qualifiedClassName": "QWindowsPopupMenu",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsMenu"
+                    }
+                ]
+            },
+            {
+                "className": "QWindowsMenuBar",
+                "lineNumber": 161,
+                "object": true,
+                "qualifiedClassName": "QWindowsMenuBar",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformMenuBar"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsmenu.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsNativeInterface",
+                "lineNumber": 27,
+                "object": true,
+                "qualifiedClassName": "QWindowsNativeInterface",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformNativeInterface"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsnativeinterface.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsNativeDialogBase",
+                "lineNumber": 131,
+                "object": true,
+                "qualifiedClassName": "QWindowsNativeDialogBase",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 140,
+                        "name": "accepted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 141,
+                        "name": "rejected",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 144,
+                        "name": "close",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "className": "QWindowsNativeFileDialogBase",
+                "lineNumber": 729,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 732,
+                        "name": "hideFiltersDetails",
+                        "override": false,
+                        "read": "hideFiltersDetails",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setHideFiltersDetails"
+                    }
+                ],
+                "qualifiedClassName": "QWindowsNativeFileDialogBase",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "directory",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 767,
+                        "name": "directoryEntered",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "file",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 768,
+                        "name": "currentChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filter",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 769,
+                        "name": "filterSelected",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 772,
+                        "name": "close",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsNativeDialogBase"
+                    }
+                ]
+            },
+            {
+                "className": "QWindowsNativeSaveFileDialog",
+                "lineNumber": 1244,
+                "object": true,
+                "qualifiedClassName": "QWindowsNativeSaveFileDialog",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsNativeFileDialogBase"
+                    }
+                ]
+            },
+            {
+                "className": "QWindowsXpNativeFileDialog",
+                "lineNumber": 1627,
+                "object": true,
+                "qualifiedClassName": "QWindowsXpNativeFileDialog",
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 1641,
+                        "name": "close",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWindowsNativeDialogBase"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsdialoghelpers.cpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QWindowsDirect2DIntegrationPlugin",
+                "lineNumber": 14,
+                "object": true,
+                "qualifiedClassName": "QWindowsDirect2DIntegrationPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformIntegrationPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qwindowsdirect2dplatformplugin.cpp",
+        "outputRevision": 69
+    }
+]

@@ -1,0 +1,146 @@
+{
+    "classes": [
+        {
+            "className": "QKeySequenceEdit",
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 20,
+                    "name": "keySequence",
+                    "notify": "keySequenceChanged",
+                    "override": false,
+                    "read": "keySequence",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QKeySequence",
+                    "user": true,
+                    "virtual": false,
+                    "write": "setKeySequence"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 22,
+                    "name": "clearButtonEnabled",
+                    "override": false,
+                    "read": "isClearButtonEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setClearButtonEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 23,
+                    "name": "maximumSequenceLength",
+                    "override": false,
+                    "read": "maximumSequenceLength",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qsizetype",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMaximumSequenceLength"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 24,
+                    "name": "finishingKeyCombinations",
+                    "override": false,
+                    "read": "finishingKeyCombinations",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<QKeyCombination>",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFinishingKeyCombinations"
+                }
+            ],
+            "qualifiedClassName": "QKeySequenceEdit",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 46,
+                    "name": "editingFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "keySequence",
+                            "type": "QKeySequence"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 47,
+                    "name": "keySequenceChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "keySequence",
+                            "type": "QKeySequence"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 41,
+                    "name": "setKeySequence",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 42,
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "count",
+                            "type": "qsizetype"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 43,
+                    "name": "setMaximumSequenceLength",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qkeysequenceedit.h",
+    "outputRevision": 69
+}

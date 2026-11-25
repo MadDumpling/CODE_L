@@ -1,0 +1,117 @@
+{
+    "classes": [
+        {
+            "className": "QWellArray",
+            "lineNumber": 26,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 29,
+                    "name": "selectedColumn",
+                    "override": false,
+                    "read": "selectedColumn",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 30,
+                    "name": "selectedRow",
+                    "override": false,
+                    "read": "selectedRow",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "QWellArray",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "col",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 90,
+                    "name": "selected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "col",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 91,
+                    "name": "currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        },
+                        {
+                            "name": "color",
+                            "type": "QRgb"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 92,
+                    "name": "colorChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        },
+        {
+            "className": "QColorWell",
+            "lineNumber": 120,
+            "object": true,
+            "qualifiedClassName": "QColorWell",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWellArray"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcolorwell_p.h",
+    "outputRevision": 69
+}

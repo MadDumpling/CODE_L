@@ -1,0 +1,99 @@
+{
+    "classes": [
+        {
+            "className": "QFontDialog",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 28,
+                    "name": "FontDialogOption",
+                    "values": [
+                        "NoButtons",
+                        "DontUseNativeDialog",
+                        "ScalableFonts",
+                        "NonScalableFonts",
+                        "MonospacedFonts",
+                        "ProportionalFonts"
+                    ]
+                }
+            ],
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "currentFont",
+                    "notify": "currentFontChanged",
+                    "override": false,
+                    "read": "currentFont",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QFont",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCurrentFont"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 25,
+                    "name": "options",
+                    "override": false,
+                    "read": "options",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FontDialogOptions",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setOptions"
+                }
+            ],
+            "qualifiedClassName": "QFontDialog",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "font",
+                            "type": "QFont"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 64,
+                    "name": "currentFontChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "font",
+                            "type": "QFont"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 65,
+                    "name": "fontSelected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfontdialog.h",
+    "outputRevision": 69
+}

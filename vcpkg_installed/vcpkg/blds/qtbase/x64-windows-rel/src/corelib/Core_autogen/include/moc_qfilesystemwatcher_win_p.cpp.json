@@ -1,0 +1,104 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsFileSystemWatcherEngine",
+            "lineNumber": 38,
+            "object": true,
+            "qualifiedClassName": "QWindowsFileSystemWatcherEngine",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 88,
+                    "name": "driveLockForRemoval",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 89,
+                    "name": "driveLockForRemovalFailed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 90,
+                    "name": "driveRemoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFileSystemWatcherEngine"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsFileSystemWatcherEngineThread",
+            "lineNumber": 113,
+            "object": true,
+            "qualifiedClassName": "QWindowsFileSystemWatcherEngineThread",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "removed",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 136,
+                    "name": "fileChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "removed",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 137,
+                    "name": "directoryChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QThread"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfilesystemwatcher_win_p.h",
+    "outputRevision": 69
+}

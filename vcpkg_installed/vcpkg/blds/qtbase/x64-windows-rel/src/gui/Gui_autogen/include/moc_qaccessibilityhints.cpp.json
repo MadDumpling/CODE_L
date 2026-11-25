@@ -1,0 +1,53 @@
+{
+    "classes": [
+        {
+            "className": "QAccessibilityHints",
+            "lineNumber": 14,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "lineNumber": 18,
+                    "name": "contrastPreference",
+                    "notify": "contrastPreferenceChanged",
+                    "override": false,
+                    "read": "contrastPreference",
+                    "required": false,
+                    "revision": 1546,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ContrastPreference",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "QAccessibilityHints",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "contrastPreference",
+                            "type": "Qt::ContrastPreference"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 27,
+                    "name": "contrastPreferenceChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qaccessibilityhints.h",
+    "outputRevision": 69
+}

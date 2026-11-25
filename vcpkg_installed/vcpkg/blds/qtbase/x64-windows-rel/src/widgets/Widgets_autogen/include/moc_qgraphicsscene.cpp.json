@@ -1,0 +1,382 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsScene",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 74,
+                    "name": "ItemIndexMethod",
+                    "values": [
+                        "BspTreeIndex",
+                        "NoIndex"
+                    ]
+                }
+            ],
+            "lineNumber": 59,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 62,
+                    "name": "backgroundBrush",
+                    "override": false,
+                    "read": "backgroundBrush",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QBrush",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setBackgroundBrush"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 63,
+                    "name": "foregroundBrush",
+                    "override": false,
+                    "read": "foregroundBrush",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QBrush",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setForegroundBrush"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 64,
+                    "name": "itemIndexMethod",
+                    "override": false,
+                    "read": "itemIndexMethod",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ItemIndexMethod",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setItemIndexMethod"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 65,
+                    "name": "sceneRect",
+                    "override": false,
+                    "read": "sceneRect",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRectF",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSceneRect"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 66,
+                    "name": "bspTreeDepth",
+                    "override": false,
+                    "read": "bspTreeDepth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setBspTreeDepth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 67,
+                    "name": "palette",
+                    "override": false,
+                    "read": "palette",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPalette",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setPalette"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 68,
+                    "name": "font",
+                    "override": false,
+                    "read": "font",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QFont",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFont"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 69,
+                    "name": "stickyFocus",
+                    "override": false,
+                    "read": "stickyFocus",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setStickyFocus"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 70,
+                    "name": "minimumRenderSize",
+                    "override": false,
+                    "read": "minimumRenderSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMinimumRenderSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 71,
+                    "name": "focusOnTouch",
+                    "override": false,
+                    "read": "focusOnTouch",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFocusOnTouch"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsScene",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "region",
+                            "type": "QList<QRectF>"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 239,
+                    "name": "changed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 240,
+                    "name": "sceneRectChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 241,
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newFocus",
+                            "type": "QGraphicsItem*"
+                        },
+                        {
+                            "name": "oldFocus",
+                            "type": "QGraphicsItem*"
+                        },
+                        {
+                            "name": "reason",
+                            "type": "Qt::FocusReason"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 242,
+                    "name": "focusItemChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 202,
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "isCloned": true,
+                    "lineNumber": 202,
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        },
+                        {
+                            "name": "layers",
+                            "type": "SceneLayers"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 203,
+                    "name": "invalidate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 7,
+                    "isCloned": true,
+                    "lineNumber": 203,
+                    "name": "invalidate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "isCloned": true,
+                    "lineNumber": 203,
+                    "name": "invalidate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "lineNumber": 204,
+                    "name": "advance",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "lineNumber": 205,
+                    "name": "clearSelection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "lineNumber": 206,
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "next",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 236,
+                    "name": "focusNextPrevChild",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "private",
+                    "index": 13,
+                    "lineNumber": 247,
+                    "name": "_q_emitUpdated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 14,
+                    "lineNumber": 248,
+                    "name": "_q_polishItems",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 15,
+                    "lineNumber": 249,
+                    "name": "_q_processDirtyItems",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 16,
+                    "lineNumber": 250,
+                    "name": "_q_updateScenePosDescendants",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicsscene.h",
+    "outputRevision": 69
+}

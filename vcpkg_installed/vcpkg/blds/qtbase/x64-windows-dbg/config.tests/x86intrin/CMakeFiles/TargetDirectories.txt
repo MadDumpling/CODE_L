@@ -1,0 +1,3 @@
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/config.tests/x86intrin/CMakeFiles/x86intrin.dir
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/config.tests/x86intrin/CMakeFiles/edit_cache.dir
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/config.tests/x86intrin/CMakeFiles/rebuild_cache.dir

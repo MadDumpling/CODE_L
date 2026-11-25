@@ -1,0 +1,88 @@
+{
+    "classes": [
+        {
+            "className": "QCalendarPopup",
+            "lineNumber": 114,
+            "object": true,
+            "qualifiedClassName": "QCalendarPopup",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 127,
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newDate",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 128,
+                    "name": "newDateSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "oldDate",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 129,
+                    "name": "hidingCalendar",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 130,
+                    "name": "resetButton",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 133,
+                    "name": "dateSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "lineNumber": 134,
+                    "name": "dateSelectionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdatetimeedit_p.h",
+    "outputRevision": 69
+}

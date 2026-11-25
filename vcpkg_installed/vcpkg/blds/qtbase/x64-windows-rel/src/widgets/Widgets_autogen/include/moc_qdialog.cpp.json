@@ -1,0 +1,137 @@
+{
+    "classes": [
+        {
+            "className": "QDialog",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 31,
+                    "name": "DialogCode",
+                    "values": [
+                        "Rejected",
+                        "Accepted"
+                    ]
+                }
+            ],
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "sizeGripEnabled",
+                    "override": false,
+                    "read": "isSizeGripEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSizeGripEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 25,
+                    "name": "modal",
+                    "override": false,
+                    "read": "isModal",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setModal"
+                }
+            ],
+            "qualifiedClassName": "QDialog",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 48,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 49,
+                    "name": "accepted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 50,
+                    "name": "rejected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 53,
+                    "name": "open",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 54,
+                    "name": "exec",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 55,
+                    "name": "done",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 56,
+                    "name": "accept",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 57,
+                    "name": "reject",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdialog.h",
+    "outputRevision": 69
+}

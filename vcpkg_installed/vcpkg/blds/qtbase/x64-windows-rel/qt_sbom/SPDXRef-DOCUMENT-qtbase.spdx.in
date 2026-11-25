@@ -1,0 +1,35 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtbase-6.11.3
+DocumentNamespace: https://qt.io/spdxdocs/qtbase-6.11.3-host-windows-amd64-target-windows-msvc-amd64-d80b310d-6635-534d-be66-63c37f2fee56
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 4.4.4, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-11-25T20:28:49Z${QT_SBOM_EXTERNAL_DOC_REFS}
+
+PackageName: qtbase
+SPDXID: SPDXRef-Package-qtbase-55b0685b5099
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtbase:6.11.3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtbase@6.11.3
+PackageVersion: 6.11.3
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtbase@6.11.3
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtbase.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 4.4.4 with Release configuration for Windows (AMD64)</text>
+FilesAnalyzed: false
+BuiltDate: 2026-11-25T20:28:49Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtbase-55b0685b5099
+Relationship: SPDXRef-Package-qtbase-system-build-tool-CMake-55b0685b5099 BUILD_DEPENDENCY_OF SPDXRef-Package-qtbase-55b0685b5099
+RelationshipComment: <text>SPDXRef-Package-qtbase-55b0685b5099 is built using CMake version 4.4.4</text>
+Relationship: SPDXRef-Package-qtbase-system-build-tool-CMake-generator-Ninja-55b0685b5099 BUILD_DEPENDENCY_OF SPDXRef-Package-qtbase-55b0685b5099
+RelationshipComment: <text>SPDXRef-Package-qtbase-55b0685b5099 is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja.exe' version '1.13.2'</text>
+Relationship: SPDXRef-Package-qtbase-system-build-tool-Compiler-MSVC-55b0685b5099 BUILD_DEPENDENCY_OF SPDXRef-Package-qtbase-55b0685b5099
+RelationshipComment: <text>SPDXRef-Package-qtbase-55b0685b5099 is built by compiler: 'MSVC' version: '19.51.36246.0' frontend variant: 'MSVC'</text>
+Relationship: SPDXRef-Package-qtbase-system-build-tool-Linker-MSVC-55b0685b5099 BUILD_DEPENDENCY_OF SPDXRef-Package-qtbase-55b0685b5099
+RelationshipComment: <text>SPDXRef-Package-qtbase-55b0685b5099 is built by linker 'MSVC' version '14.51.36246.0' frontend variant: 'MSVC'</text>

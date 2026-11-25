@@ -1,0 +1,92 @@
+{
+    "classes": [
+        {
+            "className": "QStatusBar",
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 21,
+                    "name": "sizeGripEnabled",
+                    "override": false,
+                    "read": "isSizeGripEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSizeGripEnabled"
+                }
+            ],
+            "qualifiedClassName": "QStatusBar",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 44,
+                    "name": "messageChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "timeout",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 39,
+                    "name": "showMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "isCloned": true,
+                    "lineNumber": 39,
+                    "name": "showMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 40,
+                    "name": "clearMessage",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstatusbar.h",
+    "outputRevision": 69
+}

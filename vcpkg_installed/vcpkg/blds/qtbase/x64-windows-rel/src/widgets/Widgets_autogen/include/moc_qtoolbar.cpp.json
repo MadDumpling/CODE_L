@@ -1,0 +1,313 @@
+{
+    "classes": [
+        {
+            "className": "QToolBar",
+            "lineNumber": 23,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 27,
+                    "name": "movable",
+                    "notify": "movableChanged",
+                    "override": false,
+                    "read": "isMovable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMovable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 28,
+                    "name": "allowedAreas",
+                    "notify": "allowedAreasChanged",
+                    "override": false,
+                    "read": "allowedAreas",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ToolBarAreas",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAllowedAreas"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 30,
+                    "name": "orientation",
+                    "notify": "orientationChanged",
+                    "override": false,
+                    "read": "orientation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Orientation",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setOrientation"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 32,
+                    "name": "iconSize",
+                    "notify": "iconSizeChanged",
+                    "override": false,
+                    "read": "iconSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIconSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 33,
+                    "name": "toolButtonStyle",
+                    "notify": "toolButtonStyleChanged",
+                    "override": false,
+                    "read": "toolButtonStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ToolButtonStyle",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setToolButtonStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 35,
+                    "name": "floating",
+                    "override": false,
+                    "read": "isFloating",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 36,
+                    "name": "floatable",
+                    "override": false,
+                    "read": "isFloatable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFloatable"
+                }
+            ],
+            "qualifiedClassName": "QToolBar",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QAction*"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 92,
+                    "name": "actionTriggered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "movable",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 93,
+                    "name": "movableChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "allowedAreas",
+                            "type": "Qt::ToolBarAreas"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 94,
+                    "name": "allowedAreasChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "orientation",
+                            "type": "Qt::Orientation"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 95,
+                    "name": "orientationChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "iconSize",
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 96,
+                    "name": "iconSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "toolButtonStyle",
+                            "type": "Qt::ToolButtonStyle"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 97,
+                    "name": "toolButtonStyleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "topLevel",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 98,
+                    "name": "topLevelChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 99,
+                    "name": "visibilityChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "iconSize",
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 88,
+                    "name": "setIconSize",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "toolButtonStyle",
+                            "type": "Qt::ToolButtonStyle"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 89,
+                    "name": "setToolButtonStyle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 112,
+                    "name": "_q_toggleView",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 113,
+                    "name": "_q_updateIconSize",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "Qt::ToolButtonStyle"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 114,
+                    "name": "_q_updateToolButtonStyle",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtoolbar.h",
+    "outputRevision": 69
+}

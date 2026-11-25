@@ -1,0 +1,3 @@
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/config.tests/armintrin_crypto/CMakeFiles/SimdTestcrypto.dir
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/config.tests/armintrin_crypto/CMakeFiles/edit_cache.dir
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/config.tests/armintrin_crypto/CMakeFiles/rebuild_cache.dir

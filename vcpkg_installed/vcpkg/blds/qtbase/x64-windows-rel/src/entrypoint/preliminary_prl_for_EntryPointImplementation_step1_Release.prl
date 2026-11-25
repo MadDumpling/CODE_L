@@ -1,0 +1,7 @@
+RCC_OBJECTS = 
+QMAKE_PRL_TARGET = Qt6EntryPoint.lib
+QMAKE_PRL_TARGET_PATH_FOR_CMAKE = C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/lib/Qt6EntryPoint.lib
+QMAKE_PRL_CONFIG = static
+QMAKE_PRL_VERSION = 6.11.3
+QMAKE_PRL_LIBS_FOR_CMAKE = shell32
+

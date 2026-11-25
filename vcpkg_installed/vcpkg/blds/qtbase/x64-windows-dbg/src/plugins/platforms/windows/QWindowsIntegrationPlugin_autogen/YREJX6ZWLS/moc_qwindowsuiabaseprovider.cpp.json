@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsUiaBaseProvider",
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "QWindowsUiaBaseProvider",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsuiabaseprovider.h",
+    "outputRevision": 69
+}

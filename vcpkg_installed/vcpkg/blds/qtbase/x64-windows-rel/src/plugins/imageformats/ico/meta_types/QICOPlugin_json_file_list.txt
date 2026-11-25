@@ -1,0 +1,1 @@
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/imageformats/ico/QICOPlugin_autogen/include/main.moc.json

@@ -1,0 +1,149 @@
+Package: egl-registry
+Version: 2026-11-06
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f8ae22021f5c2b178bd4cb3ee0b965e7357c3cb084e5623c3678ae2780f8bff4
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2026-08-03
+Depends: egl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e2ee7a13cddc8f9f0fb95e6f7ef7dee1c7c03af7fb830ad13e0d8e9c2401f3cb
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 830ad6bda64a62c7bc4ea7d9bd25ec599a0c94caea649b836d3941a87fe07def
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2026-07-21
+Architecture: x64-windows
+Multi-Arch: same
+Abi: aa900a75277c9ea5f094d99d484531b2dee5004196b4728946c74e2a7f7c76a6
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2026-11-09
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7825c0505a909e6dcaadbac05a48eb0c51d0b984f697addc8243af77e4b2fbdb
+Status: install ok installed
+
+Package: double-conversion
+Version: 3.4.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7ab61947dd38a847958fd0bc4a992b544a297c35cc682a9cea066ae7628a344b
+Description: Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles.
+Status: install ok installed
+
+Package: zlib
+Version: 1.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c1fa1fe1db44495fe36baab9e58a8a4cc6ecfed27f23adf48b128b267ae9b1f9
+Description: A compression library
+Status: install ok installed
+
+Package: pcre2
+Version: 10.49
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 6ef374c5213579816d0705740604b67a61d83e3932a05464a52dd081bb7be0e3
+Description: Regular Expression pattern matching using the same syntax and semantics as Perl 5.
+Default-Features: platform-default-features
+Status: install ok installed
+
+Package: pcre2
+Feature: jit
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable support for Just-In-Time compiling regex matchers
+Status: install ok installed
+
+Package: pcre2
+Feature: platform-default-features
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable default features
+Status: install ok installed
+
+Package: md4c
+Version: 0.6.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 2f424ae829d9ed229a7df22453472a5aa84e2d3690ae212464f28a47b3327b18
+Description: MD4C is a C library providing a Markdown parser.
+Status: install ok installed
+
+Package: qtbase
+Version: 6.11.3
+Port-Version: 1
+Depends: md4c, pcre2, vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: afaa3a6563c4384f76705142848617f1a69525e28be08d94e3ab519621c001c3
+Description: Qt Base (Core, Gui, Widgets, Network, ...)
+Default-Features: async-io, brotli, concurrent, dbus, dnslookup, doubleconversion, freetype, gui, harfbuzz, icu, jpeg, network, opengl, openssl, pcre2, png, sessionmanager, sql, sql-psql, sql-sqlite, testlib, thread, widgets, windeployqt, zstd
+Status: install ok installed
+
+Package: qtbase
+Feature: doubleconversion
+Depends: double-conversion
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable double conversion support
+Status: install ok installed
+
+Package: qtbase
+Feature: gui
+Depends: opengl
+Architecture: x64-windows
+Multi-Arch: same
+Description: Qt Gui
+Status: install ok installed
+
+Package: qtbase
+Feature: opengl
+Depends: opengl
+Architecture: x64-windows
+Multi-Arch: same
+Description: OpenGL
+Status: install ok installed
+
+Package: qtbase
+Feature: testlib
+Architecture: x64-windows
+Multi-Arch: same
+Description: Qt Testlib
+Status: install ok installed
+
+Package: qtbase
+Feature: thread
+Architecture: x64-windows
+Multi-Arch: same
+Description: Thread support; provides QThread and related classes.
+Status: install ok installed
+
+Package: qtbase
+Feature: widgets
+Architecture: x64-windows
+Multi-Arch: same
+Description: Qt Widgets
+Status: install ok installed
+

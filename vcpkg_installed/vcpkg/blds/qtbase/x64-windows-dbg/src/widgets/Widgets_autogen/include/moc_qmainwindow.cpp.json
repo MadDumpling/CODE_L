@@ -1,0 +1,269 @@
+{
+    "classes": [
+        {
+            "className": "QMainWindow",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 48,
+                    "name": "DockOption",
+                    "values": [
+                        "AnimatedDocks",
+                        "AllowNestedDocks",
+                        "AllowTabbedDocks",
+                        "ForceTabbedDocks",
+                        "VerticalTabs",
+                        "GroupedDragging"
+                    ]
+                },
+                {
+                    "alias": "DockOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "lineNumber": 48,
+                    "name": "DockOptions",
+                    "values": [
+                        "AnimatedDocks",
+                        "AllowNestedDocks",
+                        "AllowTabbedDocks",
+                        "ForceTabbedDocks",
+                        "VerticalTabs",
+                        "GroupedDragging"
+                    ]
+                }
+            ],
+            "lineNumber": 25,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 29,
+                    "name": "iconSize",
+                    "override": false,
+                    "read": "iconSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIconSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 30,
+                    "name": "toolButtonStyle",
+                    "override": false,
+                    "read": "toolButtonStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ToolButtonStyle",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setToolButtonStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 32,
+                    "name": "animated",
+                    "override": false,
+                    "read": "isAnimated",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAnimated"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 34,
+                    "name": "documentMode",
+                    "override": false,
+                    "read": "documentMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDocumentMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 37,
+                    "name": "tabShape",
+                    "override": false,
+                    "read": "tabShape",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTabWidget::TabShape",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setTabShape"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 39,
+                    "name": "dockNestingEnabled",
+                    "override": false,
+                    "read": "isDockNestingEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDockNestingEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 41,
+                    "name": "dockOptions",
+                    "override": false,
+                    "read": "dockOptions",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DockOptions",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDockOptions"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 43,
+                    "name": "unifiedTitleAndToolBarOnMac",
+                    "override": false,
+                    "read": "unifiedTitleAndToolBarOnMac",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setUnifiedTitleAndToolBarOnMac"
+                }
+            ],
+            "qualifiedClassName": "QMainWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "iconSize",
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 167,
+                    "name": "iconSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "toolButtonStyle",
+                            "type": "Qt::ToolButtonStyle"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 168,
+                    "name": "toolButtonStyleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dockWidget",
+                            "type": "QDockWidget*"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 170,
+                    "name": "tabifiedDockWidgetActivated",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 159,
+                    "name": "setAnimated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 160,
+                    "name": "setDockNestingEnabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "set",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 163,
+                    "name": "setUnifiedTitleAndToolBarOnMac",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmainwindow.h",
+    "outputRevision": 69
+}

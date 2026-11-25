@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt-project.org/dialogs/qprintdialog">
+    <file alias="images/status-color.png">C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/src/here-src-6-8349b2dce8.clean/src/printsupport/dialogs/images/status-color.png</file>
+    <file alias="images/status-gray-scale.png">C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/src/here-src-6-8349b2dce8.clean/src/printsupport/dialogs/images/status-gray-scale.png</file>
+  </qresource>
+</RCC>
+

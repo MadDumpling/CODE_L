@@ -1,0 +1,72 @@
+{
+    "classes": [
+        {
+            "className": "QStandardItemModel",
+            "lineNumber": 279,
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableSortRole",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 282,
+                    "name": "sortRole",
+                    "override": false,
+                    "read": "sortRole",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSortRole"
+                }
+            ],
+            "qualifiedClassName": "QStandardItemModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QStandardItem*"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 379,
+                    "name": "itemChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "topLeft",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "bottomRight",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 390,
+                    "name": "_q_emitItemChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstandarditemmodel.h",
+    "outputRevision": 69
+}

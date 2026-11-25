@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QEventDispatcherWin32",
+            "lineNumber": 33,
+            "object": true,
+            "qualifiedClassName": "QEventDispatcherWin32",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractEventDispatcherV2"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qeventdispatcher_win_p.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,292 @@
+{
+    "classes": [
+        {
+            "className": "QInputMethod",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 48,
+                    "name": "Action",
+                    "values": [
+                        "Click",
+                        "ContextMenu"
+                    ]
+                }
+            ],
+            "lineNumber": 18,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 22,
+                    "name": "cursorRectangle",
+                    "notify": "cursorRectangleChanged",
+                    "override": false,
+                    "read": "cursorRectangle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRectF",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 23,
+                    "name": "anchorRectangle",
+                    "notify": "anchorRectangleChanged",
+                    "override": false,
+                    "read": "anchorRectangle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRectF",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 24,
+                    "name": "keyboardRectangle",
+                    "notify": "keyboardRectangleChanged",
+                    "override": false,
+                    "read": "keyboardRectangle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRectF",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 25,
+                    "name": "inputItemClipRectangle",
+                    "notify": "inputItemClipRectangleChanged",
+                    "override": false,
+                    "read": "inputItemClipRectangle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRectF",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 27,
+                    "name": "visible",
+                    "notify": "visibleChanged",
+                    "override": false,
+                    "read": "isVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 28,
+                    "name": "animating",
+                    "notify": "animatingChanged",
+                    "override": false,
+                    "read": "isAnimating",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 29,
+                    "name": "locale",
+                    "notify": "localeChanged",
+                    "override": false,
+                    "read": "locale",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QLocale",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 30,
+                    "name": "inputDirection",
+                    "notify": "inputDirectionChanged",
+                    "override": false,
+                    "read": "inputDirection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::LayoutDirection",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
+            "qualifiedClassName": "QInputMethod",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 75,
+                    "name": "cursorRectangleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 76,
+                    "name": "anchorRectangleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 77,
+                    "name": "keyboardRectangleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 78,
+                    "name": "inputItemClipRectangleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 79,
+                    "name": "visibleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 80,
+                    "name": "animatingChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 81,
+                    "name": "localeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newDirection",
+                            "type": "Qt::LayoutDirection"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 82,
+                    "name": "inputDirectionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 65,
+                    "name": "show",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "lineNumber": 66,
+                    "name": "hide",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "queries",
+                            "type": "Qt::InputMethodQueries"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 68,
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "lineNumber": 69,
+                    "name": "reset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "lineNumber": 70,
+                    "name": "commit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "a",
+                            "type": "Action"
+                        },
+                        {
+                            "name": "cursorPosition",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 72,
+                    "name": "invokeAction",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qinputmethod.h",
+    "outputRevision": 69
+}

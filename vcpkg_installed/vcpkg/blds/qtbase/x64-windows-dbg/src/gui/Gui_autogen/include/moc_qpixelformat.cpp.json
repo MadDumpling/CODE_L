@@ -1,0 +1,108 @@
+{
+    "classes": [
+        {
+            "className": "QPixelFormat",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 72,
+                    "name": "ColorModel",
+                    "values": [
+                        "RGB",
+                        "BGR",
+                        "Indexed",
+                        "Grayscale",
+                        "CMYK",
+                        "HSL",
+                        "HSV",
+                        "YUV",
+                        "Alpha"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 85,
+                    "name": "AlphaUsage",
+                    "values": [
+                        "UsesAlpha",
+                        "IgnoresAlpha"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 91,
+                    "name": "AlphaPosition",
+                    "values": [
+                        "AtBeginning",
+                        "AtEnd"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 97,
+                    "name": "AlphaPremultiplied",
+                    "values": [
+                        "NotPremultiplied",
+                        "Premultiplied"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 103,
+                    "name": "TypeInterpretation",
+                    "values": [
+                        "UnsignedInteger",
+                        "UnsignedShort",
+                        "UnsignedByte",
+                        "FloatingPoint"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 111,
+                    "name": "YUVLayout",
+                    "values": [
+                        "YUV444",
+                        "YUV422",
+                        "YUV411",
+                        "YUV420P",
+                        "YUV420SP",
+                        "YV12",
+                        "UYVY",
+                        "YUYV",
+                        "NV12",
+                        "NV21",
+                        "IMC1",
+                        "IMC2",
+                        "IMC3",
+                        "IMC4",
+                        "Y8",
+                        "Y16"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 131,
+                    "name": "ByteOrder",
+                    "values": [
+                        "LittleEndian",
+                        "BigEndian",
+                        "CurrentSystemEndian"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 13,
+            "qualifiedClassName": "QPixelFormat"
+        }
+    ],
+    "inputFile": "qpixelformat.h",
+    "outputRevision": 69
+}

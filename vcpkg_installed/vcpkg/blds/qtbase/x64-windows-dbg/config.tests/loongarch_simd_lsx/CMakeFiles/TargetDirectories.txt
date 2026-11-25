@@ -1,0 +1,3 @@
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/config.tests/loongarch_simd_lsx/CMakeFiles/SimdTestlsx.dir
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/config.tests/loongarch_simd_lsx/CMakeFiles/edit_cache.dir
+C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/config.tests/loongarch_simd_lsx/CMakeFiles/rebuild_cache.dir

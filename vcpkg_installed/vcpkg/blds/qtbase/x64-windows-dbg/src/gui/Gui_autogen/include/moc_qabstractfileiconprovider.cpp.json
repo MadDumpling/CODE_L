@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractFileIconProvider",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 20,
+                    "name": "IconType",
+                    "values": [
+                        "Computer",
+                        "Desktop",
+                        "Trashcan",
+                        "Network",
+                        "Drive",
+                        "Folder",
+                        "File"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 16,
+            "qualifiedClassName": "QAbstractFileIconProvider"
+        }
+    ],
+    "inputFile": "qabstractfileiconprovider.h",
+    "outputRevision": 69
+}

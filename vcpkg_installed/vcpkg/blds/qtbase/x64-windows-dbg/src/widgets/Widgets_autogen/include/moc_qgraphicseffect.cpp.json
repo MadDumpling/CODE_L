@@ -1,0 +1,675 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsEffect",
+            "enums": [
+                {
+                    "alias": "ChangeFlag",
+                    "isClass": false,
+                    "isFlag": true,
+                    "lineNumber": 32,
+                    "name": "ChangeFlags",
+                    "values": [
+                        "SourceAttached",
+                        "SourceDetached",
+                        "SourceBoundingRectChanged",
+                        "SourceInvalidated"
+                    ]
+                }
+            ],
+            "lineNumber": 27,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 30,
+                    "name": "enabled",
+                    "notify": "enabledChanged",
+                    "override": false,
+                    "read": "isEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setEnabled"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsEffect",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 60,
+                    "name": "enabledChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enable",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 56,
+                    "name": "setEnabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 57,
+                    "name": "update",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QGraphicsColorizeEffect",
+            "lineNumber": 91,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 94,
+                    "name": "color",
+                    "notify": "colorChanged",
+                    "override": false,
+                    "read": "color",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QColor",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setColor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 95,
+                    "name": "strength",
+                    "notify": "strengthChanged",
+                    "override": false,
+                    "read": "strength",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setStrength"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsColorizeEffect",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 108,
+                    "name": "colorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "strength",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 109,
+                    "name": "strengthChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "c",
+                            "type": "QColor"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 104,
+                    "name": "setColor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "strength",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 105,
+                    "name": "setStrength",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsEffect"
+                }
+            ]
+        },
+        {
+            "className": "QGraphicsBlurEffect",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 126,
+                    "name": "BlurHint",
+                    "values": [
+                        "PerformanceHint",
+                        "QualityHint",
+                        "AnimationHint"
+                    ]
+                },
+                {
+                    "alias": "BlurHint",
+                    "isClass": false,
+                    "isFlag": true,
+                    "lineNumber": 126,
+                    "name": "BlurHints",
+                    "values": [
+                        "PerformanceHint",
+                        "QualityHint",
+                        "AnimationHint"
+                    ]
+                }
+            ],
+            "lineNumber": 120,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 123,
+                    "name": "blurRadius",
+                    "notify": "blurRadiusChanged",
+                    "override": false,
+                    "read": "blurRadius",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setBlurRadius"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 124,
+                    "name": "blurHints",
+                    "notify": "blurHintsChanged",
+                    "override": false,
+                    "read": "blurHints",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "BlurHints",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setBlurHints"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsBlurEffect",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "blurRadius",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 147,
+                    "name": "blurRadiusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "hints",
+                            "type": "BlurHints"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 148,
+                    "name": "blurHintsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "blurRadius",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 143,
+                    "name": "setBlurRadius",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "hints",
+                            "type": "BlurHints"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 144,
+                    "name": "setBlurHints",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsEffect"
+                }
+            ]
+        },
+        {
+            "className": "QGraphicsDropShadowEffect",
+            "lineNumber": 161,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 164,
+                    "name": "offset",
+                    "notify": "offsetChanged",
+                    "override": false,
+                    "read": "offset",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setOffset"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 165,
+                    "name": "xOffset",
+                    "notify": "offsetChanged",
+                    "override": false,
+                    "read": "xOffset",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setXOffset"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 166,
+                    "name": "yOffset",
+                    "notify": "offsetChanged",
+                    "override": false,
+                    "read": "yOffset",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setYOffset"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 167,
+                    "name": "blurRadius",
+                    "notify": "blurRadiusChanged",
+                    "override": false,
+                    "read": "blurRadius",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setBlurRadius"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 168,
+                    "name": "color",
+                    "notify": "colorChanged",
+                    "override": false,
+                    "read": "color",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QColor",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setColor"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsDropShadowEffect",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "offset",
+                            "type": "QPointF"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 204,
+                    "name": "offsetChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "blurRadius",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 205,
+                    "name": "blurRadiusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 206,
+                    "name": "colorChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ofs",
+                            "type": "QPointF"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 186,
+                    "name": "setOffset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dx",
+                            "type": "qreal"
+                        },
+                        {
+                            "name": "dy",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 188,
+                    "name": "setOffset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "d",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 191,
+                    "name": "setOffset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dx",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 194,
+                    "name": "setXOffset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dy",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 197,
+                    "name": "setYOffset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "blurRadius",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 200,
+                    "name": "setBlurRadius",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 201,
+                    "name": "setColor",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsEffect"
+                }
+            ]
+        },
+        {
+            "className": "QGraphicsOpacityEffect",
+            "lineNumber": 217,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 220,
+                    "name": "opacity",
+                    "notify": "opacityChanged",
+                    "override": false,
+                    "read": "opacity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setOpacity"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 221,
+                    "name": "opacityMask",
+                    "notify": "opacityMaskChanged",
+                    "override": false,
+                    "read": "opacityMask",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QBrush",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setOpacityMask"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsOpacityEffect",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "opacity",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 234,
+                    "name": "opacityChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mask",
+                            "type": "QBrush"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 235,
+                    "name": "opacityMaskChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "opacity",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 230,
+                    "name": "setOpacity",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mask",
+                            "type": "QBrush"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 231,
+                    "name": "setOpacityMask",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsEffect"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicseffect.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,290 @@
+{
+    "classes": [
+        {
+            "className": "QTreeWidget",
+            "lineNumber": 226,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 229,
+                    "name": "columnCount",
+                    "override": false,
+                    "read": "columnCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setColumnCount"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 230,
+                    "name": "topLevelItemCount",
+                    "override": false,
+                    "read": "topLevelItemCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 232,
+                    "name": "supportedDragActions",
+                    "override": false,
+                    "read": "supportedDragActions",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::DropActions",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSupportedDragActions"
+                }
+            ],
+            "qualifiedClassName": "QTreeWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 308,
+                    "name": "itemPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 309,
+                    "name": "itemClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 310,
+                    "name": "itemDoubleClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 311,
+                    "name": "itemActivated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 312,
+                    "name": "itemEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 313,
+                    "name": "itemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 314,
+                    "name": "itemExpanded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 315,
+                    "name": "itemCollapsed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "previous",
+                            "type": "QTreeWidgetItem*"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 316,
+                    "name": "currentItemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "lineNumber": 317,
+                    "name": "itemSelectionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "hint",
+                            "type": "QAbstractItemView::ScrollHint"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 301,
+                    "name": "scrollToItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QTreeWidgetItem*"
+                        }
+                    ],
+                    "index": 11,
+                    "isCloned": true,
+                    "lineNumber": 301,
+                    "name": "scrollToItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QTreeWidgetItem*"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 303,
+                    "name": "expandItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QTreeWidgetItem*"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 304,
+                    "name": "collapseItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "lineNumber": 305,
+                    "name": "clear",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTreeView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtreewidget.h",
+    "outputRevision": 69
+}

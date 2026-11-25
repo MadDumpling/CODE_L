@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "QCompletionModel",
+            "lineNumber": 184,
+            "object": true,
+            "qualifiedClassName": "QCompletionModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 217,
+                    "name": "rowsAdded",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 220,
+                    "name": "invalidate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 221,
+                    "name": "rowsInserted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 222,
+                    "name": "modelDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcompleter_p.h",
+    "outputRevision": 69
+}

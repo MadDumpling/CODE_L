@@ -1,0 +1,168 @@
+{
+    "classes": [
+        {
+            "className": "QFont",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 25,
+                    "name": "StyleHint",
+                    "values": [
+                        "Helvetica",
+                        "SansSerif",
+                        "Times",
+                        "Serif",
+                        "Courier",
+                        "TypeWriter",
+                        "OldEnglish",
+                        "Decorative",
+                        "System",
+                        "AnyStyle",
+                        "Cursive",
+                        "Monospace",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 38,
+                    "name": "StyleStrategy",
+                    "values": [
+                        "PreferDefault",
+                        "PreferBitmap",
+                        "PreferDevice",
+                        "PreferOutline",
+                        "ForceOutline",
+                        "PreferMatch",
+                        "PreferQuality",
+                        "PreferAntialias",
+                        "NoAntialias",
+                        "NoSubpixelAntialias",
+                        "PreferNoShaping",
+                        "ContextFontMerging",
+                        "PreferTypoLineMetrics",
+                        "NoFontMerging"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 56,
+                    "name": "HintingPreference",
+                    "values": [
+                        "PreferDefaultHinting",
+                        "PreferNoHinting",
+                        "PreferVerticalHinting",
+                        "PreferFullHinting"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 64,
+                    "name": "Weight",
+                    "values": [
+                        "Thin",
+                        "ExtraLight",
+                        "Light",
+                        "Normal",
+                        "Medium",
+                        "DemiBold",
+                        "Bold",
+                        "ExtraBold",
+                        "Black"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 77,
+                    "name": "Style",
+                    "values": [
+                        "StyleNormal",
+                        "StyleItalic",
+                        "StyleOblique"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 84,
+                    "name": "Stretch",
+                    "values": [
+                        "AnyStretch",
+                        "UltraCondensed",
+                        "ExtraCondensed",
+                        "Condensed",
+                        "SemiCondensed",
+                        "Unstretched",
+                        "SemiExpanded",
+                        "Expanded",
+                        "ExtraExpanded",
+                        "UltraExpanded"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 98,
+                    "name": "Capitalization",
+                    "values": [
+                        "MixedCase",
+                        "AllUppercase",
+                        "AllLowercase",
+                        "SmallCaps",
+                        "Capitalize"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 107,
+                    "name": "SpacingType",
+                    "values": [
+                        "PercentageSpacing",
+                        "AbsoluteSpacing"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 113,
+                    "name": "ResolveProperties",
+                    "values": [
+                        "NoPropertiesResolved",
+                        "FamilyResolved",
+                        "SizeResolved",
+                        "StyleHintResolved",
+                        "StyleStrategyResolved",
+                        "WeightResolved",
+                        "StyleResolved",
+                        "UnderlineResolved",
+                        "OverlineResolved",
+                        "StrikeOutResolved",
+                        "FixedPitchResolved",
+                        "StretchResolved",
+                        "KerningResolved",
+                        "CapitalizationResolved",
+                        "LetterSpacingResolved",
+                        "WordSpacingResolved",
+                        "HintingPreferenceResolved",
+                        "StyleNameResolved",
+                        "FamiliesResolved",
+                        "FeaturesResolved",
+                        "VariableAxesResolved",
+                        "AllPropertiesResolved"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 21,
+            "qualifiedClassName": "QFont"
+        }
+    ],
+    "inputFile": "qfont.h",
+    "outputRevision": 69
+}

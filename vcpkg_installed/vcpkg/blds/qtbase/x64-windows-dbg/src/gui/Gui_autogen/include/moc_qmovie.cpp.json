@@ -1,0 +1,216 @@
+{
+    "classes": [
+        {
+            "className": "QMovie",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 34,
+                    "name": "MovieState",
+                    "values": [
+                        "NotRunning",
+                        "Paused",
+                        "Running"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 40,
+                    "name": "CacheMode",
+                    "values": [
+                        "CacheNone",
+                        "CacheAll"
+                    ]
+                }
+            ],
+            "lineNumber": 27,
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableSpeed",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 31,
+                    "name": "speed",
+                    "override": false,
+                    "read": "speed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSpeed"
+                },
+                {
+                    "bindable": "bindableCacheMode",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 32,
+                    "name": "cacheMode",
+                    "override": false,
+                    "read": "cacheMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "CacheMode",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCacheMode"
+                }
+            ],
+            "qualifiedClassName": "QMovie",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 92,
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "size",
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 93,
+                    "name": "resized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 94,
+                    "name": "updated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "QMovie::MovieState"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 95,
+                    "name": "stateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QImageReader::ImageReaderError"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 96,
+                    "name": "error",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 97,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "frameNumber",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 98,
+                    "name": "frameChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 101,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 102,
+                    "name": "jumpToNextFrame",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "paused",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 103,
+                    "name": "setPaused",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "lineNumber": 104,
+                    "name": "stop",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "percentSpeed",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 105,
+                    "name": "setSpeed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 12,
+                    "lineNumber": 109,
+                    "name": "_q_loadNextFrame",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmovie.h",
+    "outputRevision": 69
+}

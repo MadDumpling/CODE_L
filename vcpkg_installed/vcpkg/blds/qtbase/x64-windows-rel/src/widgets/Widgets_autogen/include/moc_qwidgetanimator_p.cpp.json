@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetAnimator",
+            "lineNumber": 31,
+            "object": true,
+            "qualifiedClassName": "QWidgetAnimator",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgetanimator_p.h",
+    "outputRevision": 69
+}

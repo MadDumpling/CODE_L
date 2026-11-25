@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsPrinterSupportPlugin",
+            "lineNumber": 57,
+            "object": true,
+            "qualifiedClassName": "QWindowsPrinterSupportPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformPrinterSupportPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsprintersupport.cpp",
+    "outputRevision": 69
+}

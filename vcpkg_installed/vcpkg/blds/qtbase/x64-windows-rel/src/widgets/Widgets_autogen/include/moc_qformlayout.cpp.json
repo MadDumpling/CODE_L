@@ -1,0 +1,161 @@
+{
+    "classes": [
+        {
+            "className": "QFormLayout",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 34,
+                    "name": "FieldGrowthPolicy",
+                    "values": [
+                        "FieldsStayAtSizeHint",
+                        "ExpandingFieldsGrow",
+                        "AllNonFixedFieldsGrow"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 41,
+                    "name": "RowWrapPolicy",
+                    "values": [
+                        "DontWrapRows",
+                        "WrapLongRows",
+                        "WrapAllRows"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 48,
+                    "name": "ItemRole",
+                    "values": [
+                        "LabelRole",
+                        "FieldRole",
+                        "SpanningRole"
+                    ]
+                }
+            ],
+            "lineNumber": 18,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 22,
+                    "name": "fieldGrowthPolicy",
+                    "override": false,
+                    "read": "fieldGrowthPolicy",
+                    "required": false,
+                    "reset": "resetFieldGrowthPolicy",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FieldGrowthPolicy",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFieldGrowthPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 24,
+                    "name": "rowWrapPolicy",
+                    "override": false,
+                    "read": "rowWrapPolicy",
+                    "required": false,
+                    "reset": "resetRowWrapPolicy",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "RowWrapPolicy",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setRowWrapPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 26,
+                    "name": "labelAlignment",
+                    "override": false,
+                    "read": "labelAlignment",
+                    "required": false,
+                    "reset": "resetLabelAlignment",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Alignment",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setLabelAlignment"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 28,
+                    "name": "formAlignment",
+                    "override": false,
+                    "read": "formAlignment",
+                    "required": false,
+                    "reset": "resetFormAlignment",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Alignment",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFormAlignment"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 30,
+                    "name": "horizontalSpacing",
+                    "override": false,
+                    "read": "horizontalSpacing",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setHorizontalSpacing"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 31,
+                    "name": "verticalSpacing",
+                    "override": false,
+                    "read": "verticalSpacing",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setVerticalSpacing"
+                }
+            ],
+            "qualifiedClassName": "QFormLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLayout"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qformlayout.h",
+    "outputRevision": 69
+}

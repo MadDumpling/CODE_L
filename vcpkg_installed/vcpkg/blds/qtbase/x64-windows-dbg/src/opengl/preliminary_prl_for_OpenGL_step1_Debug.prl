@@ -1,0 +1,6 @@
+RCC_OBJECTS = 
+QMAKE_PRL_TARGET = Qt6OpenGLd.lib
+QMAKE_PRL_TARGET_PATH_FOR_CMAKE = C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/lib/Qt6OpenGLd.lib
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.11.3
+

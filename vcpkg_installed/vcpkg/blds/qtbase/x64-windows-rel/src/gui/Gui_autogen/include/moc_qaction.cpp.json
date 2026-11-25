@@ -1,0 +1,534 @@
+{
+    "classes": [
+        {
+            "className": "QAction",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 61,
+                    "name": "MenuRole",
+                    "values": [
+                        "NoRole",
+                        "TextHeuristicRole",
+                        "ApplicationSpecificRole",
+                        "AboutQtRole",
+                        "AboutRole",
+                        "PreferencesRole",
+                        "QuitRole"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 64,
+                    "name": "Priority",
+                    "values": [
+                        "LowPriority",
+                        "NormalPriority",
+                        "HighPriority"
+                    ]
+                }
+            ],
+            "lineNumber": 29,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "lineNumber": 34,
+                    "name": "checkable",
+                    "notify": "checkableChanged",
+                    "override": false,
+                    "read": "isCheckable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCheckable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 35,
+                    "name": "checked",
+                    "notify": "toggled",
+                    "override": false,
+                    "read": "isChecked",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setChecked"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 2,
+                    "lineNumber": 36,
+                    "name": "enabled",
+                    "notify": "enabledChanged",
+                    "override": false,
+                    "read": "isEnabled",
+                    "required": false,
+                    "reset": "resetEnabled",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 38,
+                    "name": "icon",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "icon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QIcon",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIcon"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 39,
+                    "name": "text",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "text",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 40,
+                    "name": "iconText",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "iconText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIconText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 41,
+                    "name": "toolTip",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "toolTip",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setToolTip"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 42,
+                    "name": "statusTip",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "statusTip",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setStatusTip"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 43,
+                    "name": "whatsThis",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "whatsThis",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setWhatsThis"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 44,
+                    "name": "font",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "font",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QFont",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFont"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "lineNumber": 46,
+                    "name": "shortcut",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "shortcut",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QKeySequence",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setShortcut"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "lineNumber": 47,
+                    "name": "shortcutContext",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "shortcutContext",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ShortcutContext",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setShortcutContext"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "lineNumber": 49,
+                    "name": "autoRepeat",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "autoRepeat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAutoRepeat"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 13,
+                    "lineNumber": 51,
+                    "name": "visible",
+                    "notify": "visibleChanged",
+                    "override": false,
+                    "read": "isVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "lineNumber": 52,
+                    "name": "menuRole",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "menuRole",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "MenuRole",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMenuRole"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 15,
+                    "lineNumber": 53,
+                    "name": "iconVisibleInMenu",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "isIconVisibleInMenu",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIconVisibleInMenu"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 16,
+                    "lineNumber": 55,
+                    "name": "shortcutVisibleInContextMenu",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "isShortcutVisibleInContextMenu",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setShortcutVisibleInContextMenu"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 17,
+                    "lineNumber": 57,
+                    "name": "priority",
+                    "notify": "changed",
+                    "override": false,
+                    "read": "priority",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Priority",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setPriority"
+                }
+            ],
+            "qualifiedClassName": "QAction",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 220,
+                    "name": "changed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 221,
+                    "name": "enabledChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "checkable",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 222,
+                    "name": "checkableChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 223,
+                    "name": "visibleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "checked",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 224,
+                    "name": "triggered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "isCloned": true,
+                    "lineNumber": 224,
+                    "name": "triggered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 225,
+                    "name": "hovered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 226,
+                    "name": "toggled",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 210,
+                    "name": "trigger",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "lineNumber": 211,
+                    "name": "hover",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 212,
+                    "name": "setChecked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "lineNumber": 213,
+                    "name": "toggle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 214,
+                    "name": "setEnabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "lineNumber": 215,
+                    "name": "resetEnabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 14,
+                    "lineNumber": 216,
+                    "name": "setDisabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 15,
+                    "lineNumber": 217,
+                    "name": "setVisible",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qaction.h",
+    "outputRevision": 69
+}

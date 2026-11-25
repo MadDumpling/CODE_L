@@ -1,0 +1,17 @@
+{
+    "name": "code-l",
+    "version": "0.1.0",
+    "builtin-baseline": "1911fa2a6e1ccaf8eda36b4057ad9fc68e781e93",
+    "dependencies": [
+        {
+            "name": "qtbase",
+            "default-features": false,
+            "features": [
+                "gui",
+                "widgets",
+                "opengl",
+                "testlib"
+            ]
+        }
+    ]
+}

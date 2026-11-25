@@ -1,0 +1,522 @@
+{
+    "classes": [
+        {
+            "className": "QHeaderView",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 42,
+                    "name": "ResizeMode",
+                    "values": [
+                        "Interactive",
+                        "Stretch",
+                        "Fixed",
+                        "ResizeToContents",
+                        "Custom"
+                    ]
+                }
+            ],
+            "lineNumber": 21,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "firstSectionMovable",
+                    "override": false,
+                    "read": "isFirstSectionMovable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFirstSectionMovable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 25,
+                    "name": "showSortIndicator",
+                    "override": false,
+                    "read": "isSortIndicatorShown",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSortIndicatorShown"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 26,
+                    "name": "sectionsMovable",
+                    "override": false,
+                    "read": "sectionsMovable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSectionsMovable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 27,
+                    "name": "sectionsClickable",
+                    "override": false,
+                    "read": "sectionsClickable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSectionsClickable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 28,
+                    "name": "highlightSections",
+                    "override": false,
+                    "read": "highlightSections",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setHighlightSections"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 29,
+                    "name": "stretchLastSection",
+                    "override": false,
+                    "read": "stretchLastSection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setStretchLastSection"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 30,
+                    "name": "cascadingSectionResizes",
+                    "override": false,
+                    "read": "cascadingSectionResizes",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCascadingSectionResizes"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 32,
+                    "name": "defaultSectionSize",
+                    "override": false,
+                    "read": "defaultSectionSize",
+                    "required": false,
+                    "reset": "resetDefaultSectionSize",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDefaultSectionSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 34,
+                    "name": "minimumSectionSize",
+                    "override": false,
+                    "read": "minimumSectionSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMinimumSectionSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 35,
+                    "name": "maximumSectionSize",
+                    "override": false,
+                    "read": "maximumSectionSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMaximumSectionSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "lineNumber": 36,
+                    "name": "defaultAlignment",
+                    "override": false,
+                    "read": "defaultAlignment",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Alignment",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDefaultAlignment"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "lineNumber": 37,
+                    "name": "sortIndicatorClearable",
+                    "notify": "sortIndicatorClearableChanged",
+                    "override": false,
+                    "read": "isSortIndicatorClearable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSortIndicatorClearable"
+                }
+            ],
+            "qualifiedClassName": "QHeaderView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldVisualIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newVisualIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 156,
+                    "name": "sectionMoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldSize",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newSize",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 157,
+                    "name": "sectionResized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 158,
+                    "name": "sectionPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 159,
+                    "name": "sectionClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 160,
+                    "name": "sectionEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 161,
+                    "name": "sectionDoubleClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "oldCount",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 162,
+                    "name": "sectionCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 163,
+                    "name": "sectionHandleDoubleClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 164,
+                    "name": "geometriesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "order",
+                            "type": "Qt::SortOrder"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 165,
+                    "name": "sortIndicatorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "clearable",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 166,
+                    "name": "sortIndicatorClearableChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "offset",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 150,
+                    "name": "setOffset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visualIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 151,
+                    "name": "setOffsetToSectionPosition",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "lineNumber": 152,
+                    "name": "setOffsetToLastSection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "orientation",
+                            "type": "Qt::Orientation"
+                        },
+                        {
+                            "name": "logicalFirst",
+                            "type": "int"
+                        },
+                        {
+                            "name": "logicalLast",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 14,
+                    "lineNumber": 153,
+                    "name": "headerDataChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 15,
+                    "lineNumber": 169,
+                    "name": "updateSection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 16,
+                    "lineNumber": 170,
+                    "name": "resizeSections",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "logicalFirst",
+                            "type": "int"
+                        },
+                        {
+                            "name": "logicalLast",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 17,
+                    "lineNumber": 171,
+                    "name": "sectionsInserted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "logicalFirst",
+                            "type": "int"
+                        },
+                        {
+                            "name": "logicalLast",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 18,
+                    "lineNumber": 172,
+                    "name": "sectionsAboutToBeRemoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qheaderview.h",
+    "outputRevision": 69
+}

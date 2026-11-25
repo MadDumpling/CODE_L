@@ -1,0 +1,194 @@
+{
+    "classes": [
+        {
+            "className": "QScroller",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 36,
+                    "name": "State",
+                    "values": [
+                        "Inactive",
+                        "Pressed",
+                        "Dragging",
+                        "Scrolling"
+                    ]
+                }
+            ],
+            "lineNumber": 28,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 31,
+                    "name": "state",
+                    "notify": "stateChanged",
+                    "override": false,
+                    "read": "state",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "State",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 32,
+                    "name": "scrollerProperties",
+                    "notify": "scrollerPropertiesChanged",
+                    "override": false,
+                    "read": "scrollerProperties",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QScrollerProperties",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setScrollerProperties"
+                }
+            ],
+            "qualifiedClassName": "QScroller",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newstate",
+                            "type": "QScroller::State"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 100,
+                    "name": "stateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QScrollerProperties"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 101,
+                    "name": "scrollerPropertiesChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "prop",
+                            "type": "QScrollerProperties"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 92,
+                    "name": "setScrollerProperties",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pos",
+                            "type": "QPointF"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 93,
+                    "name": "scrollTo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pos",
+                            "type": "QPointF"
+                        },
+                        {
+                            "name": "scrollTime",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 94,
+                    "name": "scrollTo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        },
+                        {
+                            "name": "xmargin",
+                            "type": "qreal"
+                        },
+                        {
+                            "name": "ymargin",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 95,
+                    "name": "ensureVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        },
+                        {
+                            "name": "xmargin",
+                            "type": "qreal"
+                        },
+                        {
+                            "name": "ymargin",
+                            "type": "qreal"
+                        },
+                        {
+                            "name": "scrollTime",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 96,
+                    "name": "ensureVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 97,
+                    "name": "resendPrepareEvent",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qscroller.h",
+    "outputRevision": 69
+}

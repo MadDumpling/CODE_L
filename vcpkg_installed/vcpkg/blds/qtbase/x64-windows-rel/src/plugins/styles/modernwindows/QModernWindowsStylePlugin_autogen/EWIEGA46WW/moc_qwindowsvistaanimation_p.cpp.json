@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsVistaAnimation",
+            "lineNumber": 24,
+            "object": true,
+            "qualifiedClassName": "QWindowsVistaAnimation",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QBlendStyleAnimation"
+                }
+            ]
+        },
+        {
+            "className": "QWindowsVistaTransition",
+            "lineNumber": 36,
+            "object": true,
+            "qualifiedClassName": "QWindowsVistaTransition",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsVistaAnimation"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsvistaanimation_p.h",
+    "outputRevision": 69
+}

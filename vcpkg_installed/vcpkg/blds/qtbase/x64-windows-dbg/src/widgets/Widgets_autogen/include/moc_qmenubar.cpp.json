@@ -1,0 +1,130 @@
+{
+    "classes": [
+        {
+            "className": "QMenuBar",
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "defaultUp",
+                    "override": false,
+                    "read": "isDefaultUp",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDefaultUp"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 25,
+                    "name": "nativeMenuBar",
+                    "override": false,
+                    "read": "isNativeMenuBar",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setNativeMenuBar"
+                }
+            ],
+            "qualifiedClassName": "QMenuBar",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QAction*"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 76,
+                    "name": "triggered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "QAction*"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 77,
+                    "name": "hovered",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 73,
+                    "name": "setVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "lineNumber": 99,
+                    "name": "_q_actionTriggered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "lineNumber": 100,
+                    "name": "_q_actionHovered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 101,
+                    "name": "_q_internalShortcutActivated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "lineNumber": 102,
+                    "name": "_q_updateLayout",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmenubar.h",
+    "outputRevision": 69
+}

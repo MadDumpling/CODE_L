@@ -1,0 +1,226 @@
+{
+    "classes": [
+        {
+            "className": "QPrintPreviewWidget",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "QPrintPreviewWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "printer",
+                            "type": "QPrinter*"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 72,
+                    "name": "paintRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 73,
+                    "name": "previewChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 51,
+                    "name": "print",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "zoom",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 53,
+                    "name": "zoomIn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "isCloned": true,
+                    "lineNumber": 53,
+                    "name": "zoomIn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "zoom",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 54,
+                    "name": "zoomOut",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "isCloned": true,
+                    "lineNumber": 54,
+                    "name": "zoomOut",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "zoomFactor",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 55,
+                    "name": "setZoomFactor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "orientation",
+                            "type": "QPageLayout::Orientation"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 56,
+                    "name": "setOrientation",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "viewMode",
+                            "type": "ViewMode"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 57,
+                    "name": "setViewMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "zoomMode",
+                            "type": "ZoomMode"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 58,
+                    "name": "setZoomMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pageNumber",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 59,
+                    "name": "setCurrentPage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "lineNumber": 61,
+                    "name": "fitToWidth",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "lineNumber": 62,
+                    "name": "fitInView",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "lineNumber": 63,
+                    "name": "setLandscapeOrientation",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "lineNumber": 64,
+                    "name": "setPortraitOrientation",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 16,
+                    "lineNumber": 65,
+                    "name": "setSinglePageViewMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 17,
+                    "lineNumber": 66,
+                    "name": "setFacingPagesViewMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 18,
+                    "lineNumber": 67,
+                    "name": "setAllPagesViewMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 19,
+                    "lineNumber": 69,
+                    "name": "updatePreview",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 20,
+                    "lineNumber": 76,
+                    "name": "_q_fit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 21,
+                    "lineNumber": 77,
+                    "name": "_q_updateCurrentPage",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qprintpreviewwidget.h",
+    "outputRevision": 69
+}

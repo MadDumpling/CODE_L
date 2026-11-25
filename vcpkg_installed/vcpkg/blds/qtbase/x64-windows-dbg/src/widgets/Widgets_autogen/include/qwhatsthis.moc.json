@@ -1,0 +1,39 @@
+{
+    "classes": [
+        {
+            "className": "QWhatsThat",
+            "lineNumber": 100,
+            "object": true,
+            "qualifiedClassName": "QWhatsThat",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        },
+        {
+            "className": "QWhatsThisAction",
+            "lineNumber": 447,
+            "object": true,
+            "qualifiedClassName": "QWhatsThisAction",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "lineNumber": 455,
+                    "name": "actionTriggered",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAction"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwhatsthis.cpp",
+    "outputRevision": 69
+}

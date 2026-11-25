@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsGuiEventDispatcher",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "QWindowsGuiEventDispatcher",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QEventDispatcherWin32"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsguieventdispatcher_p.h",
+    "outputRevision": 69
+}

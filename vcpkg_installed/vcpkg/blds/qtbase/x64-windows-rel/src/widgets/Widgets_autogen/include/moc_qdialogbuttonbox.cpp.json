@@ -1,0 +1,137 @@
+{
+    "classes": [
+        {
+            "className": "QDialogButtonBox",
+            "enums": [
+                {
+                    "alias": "StandardButton",
+                    "isClass": false,
+                    "isFlag": true,
+                    "lineNumber": 44,
+                    "name": "StandardButtons",
+                    "values": [
+                        "NoButton",
+                        "Ok",
+                        "Save",
+                        "SaveAll",
+                        "Open",
+                        "Yes",
+                        "YesToAll",
+                        "No",
+                        "NoToAll",
+                        "Abort",
+                        "Retry",
+                        "Ignore",
+                        "Close",
+                        "Cancel",
+                        "Discard",
+                        "Help",
+                        "Apply",
+                        "Reset",
+                        "RestoreDefaults"
+                    ]
+                }
+            ],
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 23,
+                    "name": "orientation",
+                    "override": false,
+                    "read": "orientation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Orientation",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setOrientation"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 24,
+                    "name": "standardButtons",
+                    "override": false,
+                    "read": "standardButtons",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "StandardButtons",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setStandardButtons"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 25,
+                    "name": "centerButtons",
+                    "override": false,
+                    "read": "centerButtons",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCenterButtons"
+                }
+            ],
+            "qualifiedClassName": "QDialogButtonBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "button",
+                            "type": "QAbstractButton*"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 112,
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 113,
+                    "name": "accepted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 114,
+                    "name": "helpRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 115,
+                    "name": "rejected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdialogbuttonbox.h",
+    "outputRevision": 69
+}

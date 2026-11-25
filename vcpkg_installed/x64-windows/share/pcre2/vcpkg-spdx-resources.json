@@ -1,0 +1,20 @@
+{
+  "packages": [
+{
+  "SPDXID" : "SPDXRef-resource-0",
+  "checksums" : 
+  [
+    {
+      "algorithm" : "SHA512",
+      "checksumValue" : "6cfd9f824837078bea959ea89c1494950987892ec9b8546691b1aa94fde37c60429c4711c55f9a629c8a6a86bb6ebae738b3a0ebf6e42c70ab008ec6c394aca0"
+    }
+  ],
+  "copyrightText" : "NOASSERTION",
+  "downloadLocation" : "https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.49/pcre2-10.49.tar.gz",
+  "licenseConcluded" : "NOASSERTION",
+  "licenseDeclared" : "NOASSERTION",
+  "name" : "pcre2-10.49.tar.gz",
+  "packageFileName" : "pcre2-10.49.tar.gz"
+}
+  ]
+}

@@ -1,0 +1,169 @@
+{
+    "classes": [
+        {
+            "className": "QDataWidgetMapper",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 45,
+                    "name": "SubmitPolicy",
+                    "values": [
+                        "AutoSubmit",
+                        "ManualSubmit"
+                    ]
+                }
+            ],
+            "lineNumber": 21,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "currentIndex",
+                    "notify": "currentIndexChanged",
+                    "override": false,
+                    "read": "currentIndex",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCurrentIndex"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 26,
+                    "name": "orientation",
+                    "override": false,
+                    "read": "orientation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Orientation",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setOrientation"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 27,
+                    "name": "submitPolicy",
+                    "override": false,
+                    "read": "submitPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SubmitPolicy",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setSubmitPolicy"
+                }
+            ],
+            "qualifiedClassName": "QDataWidgetMapper",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 72,
+                    "name": "currentIndexChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 61,
+                    "name": "revert",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 62,
+                    "name": "submit",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 64,
+                    "name": "toFirst",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 65,
+                    "name": "toLast",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 66,
+                    "name": "toNext",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 67,
+                    "name": "toPrevious",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 68,
+                    "name": "setCurrentIndex",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 69,
+                    "name": "setCurrentModelIndex",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdatawidgetmapper.h",
+    "outputRevision": 69
+}

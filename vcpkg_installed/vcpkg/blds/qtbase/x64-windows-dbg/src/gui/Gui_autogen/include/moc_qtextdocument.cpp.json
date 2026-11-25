@@ -1,0 +1,473 @@
+{
+    "classes": [
+        {
+            "className": "QTextDocument",
+            "enums": [
+                {
+                    "alias": "MarkdownFeature",
+                    "isClass": false,
+                    "isFlag": true,
+                    "lineNumber": 116,
+                    "name": "MarkdownFeatures",
+                    "values": [
+                        "MarkdownNoHTML",
+                        "MarkdownDialectCommonMark",
+                        "MarkdownDialectGitHub"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 193,
+                    "name": "ResourceType",
+                    "values": [
+                        "UnknownResource",
+                        "HtmlResource",
+                        "ImageResource",
+                        "StyleSheetResource",
+                        "MarkdownResource",
+                        "UserResource"
+                    ]
+                }
+            ],
+            "lineNumber": 55,
+            "methods": [
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 15,
+                    "lineNumber": 292,
+                    "name": "loadResource",
+                    "returnType": "QVariant"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 59,
+                    "name": "undoRedoEnabled",
+                    "override": false,
+                    "read": "isUndoRedoEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setUndoRedoEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 60,
+                    "name": "modified",
+                    "override": false,
+                    "read": "isModified",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setModified"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 61,
+                    "name": "pageSize",
+                    "override": false,
+                    "read": "pageSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizeF",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setPageSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 62,
+                    "name": "defaultFont",
+                    "override": false,
+                    "read": "defaultFont",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QFont",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDefaultFont"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 63,
+                    "name": "useDesignMetrics",
+                    "override": false,
+                    "read": "useDesignMetrics",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setUseDesignMetrics"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 64,
+                    "name": "layoutEnabled",
+                    "override": false,
+                    "read": "isLayoutEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setLayoutEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 65,
+                    "name": "size",
+                    "override": false,
+                    "read": "size",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizeF",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 66,
+                    "name": "textWidth",
+                    "override": false,
+                    "read": "textWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setTextWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 67,
+                    "name": "blockCount",
+                    "override": false,
+                    "read": "blockCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 68,
+                    "name": "indentWidth",
+                    "override": false,
+                    "read": "indentWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setIndentWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "lineNumber": 70,
+                    "name": "defaultStyleSheet",
+                    "override": false,
+                    "read": "defaultStyleSheet",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDefaultStyleSheet"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "lineNumber": 72,
+                    "name": "maximumBlockCount",
+                    "override": false,
+                    "read": "maximumBlockCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMaximumBlockCount"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "lineNumber": 73,
+                    "name": "documentMargin",
+                    "override": false,
+                    "read": "documentMargin",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDocumentMargin"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "lineNumber": 75,
+                    "name": "baseUrl",
+                    "notify": "baseUrlChanged",
+                    "override": false,
+                    "read": "baseUrl",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QUrl",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setBaseUrl"
+                }
+            ],
+            "qualifiedClassName": "QTextDocument",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "from",
+                            "type": "int"
+                        },
+                        {
+                            "name": "charsRemoved",
+                            "type": "int"
+                        },
+                        {
+                            "name": "charsAdded",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 273,
+                    "name": "contentsChange",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 274,
+                    "name": "contentsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 275,
+                    "name": "undoAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 276,
+                    "name": "redoAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 277,
+                    "name": "undoCommandAdded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "m",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 278,
+                    "name": "modificationChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cursor",
+                            "type": "QTextCursor"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 279,
+                    "name": "cursorPositionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newBlockCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 280,
+                    "name": "blockCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 281,
+                    "name": "baseUrlChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "lineNumber": 282,
+                    "name": "documentLayoutChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 10,
+                    "lineNumber": 285,
+                    "name": "undo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "lineNumber": 286,
+                    "name": "redo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAbstractUndoItem*"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 287,
+                    "name": "appendUndoItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "m",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 288,
+                    "name": "setModified",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "isCloned": true,
+                    "lineNumber": 288,
+                    "name": "setModified",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtextdocument.h",
+    "outputRevision": 69
+}

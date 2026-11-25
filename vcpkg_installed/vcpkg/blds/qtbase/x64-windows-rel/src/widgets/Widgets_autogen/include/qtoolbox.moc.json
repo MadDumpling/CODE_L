@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QToolBoxButton",
+            "lineNumber": 26,
+            "object": true,
+            "qualifiedClassName": "QToolBoxButton",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtoolbox.cpp",
+    "outputRevision": 69
+}

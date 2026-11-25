@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QWindowsNativeInterface",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "QWindowsNativeInterface",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformNativeInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwindowsnativeinterface.h",
+    "outputRevision": 69
+}

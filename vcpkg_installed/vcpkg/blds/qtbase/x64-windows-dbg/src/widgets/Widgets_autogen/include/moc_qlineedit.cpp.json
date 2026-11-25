@@ -1,0 +1,515 @@
+{
+    "classes": [
+        {
+            "className": "QLineEdit",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 52,
+                    "name": "ActionPosition",
+                    "values": [
+                        "LeadingPosition",
+                        "TrailingPosition"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 78,
+                    "name": "EchoMode",
+                    "values": [
+                        "Normal",
+                        "NoEcho",
+                        "Password",
+                        "PasswordEchoOnEdit"
+                    ]
+                }
+            ],
+            "lineNumber": 28,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "property",
+                            "type": "Qt::InputMethodQuery"
+                        },
+                        {
+                            "name": "argument",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 15,
+                    "isConst": true,
+                    "lineNumber": 201,
+                    "name": "inputMethodQuery",
+                    "returnType": "QVariant"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 32,
+                    "name": "inputMask",
+                    "override": false,
+                    "read": "inputMask",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setInputMask"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 33,
+                    "name": "text",
+                    "notify": "textChanged",
+                    "override": false,
+                    "read": "text",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": true,
+                    "virtual": false,
+                    "write": "setText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 34,
+                    "name": "maxLength",
+                    "override": false,
+                    "read": "maxLength",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setMaxLength"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 35,
+                    "name": "frame",
+                    "override": false,
+                    "read": "hasFrame",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setFrame"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 36,
+                    "name": "echoMode",
+                    "override": false,
+                    "read": "echoMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "EchoMode",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setEchoMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 37,
+                    "name": "displayText",
+                    "override": false,
+                    "read": "displayText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 38,
+                    "name": "cursorPosition",
+                    "override": false,
+                    "read": "cursorPosition",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCursorPosition"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 39,
+                    "name": "alignment",
+                    "override": false,
+                    "read": "alignment",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Alignment",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setAlignment"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 40,
+                    "name": "modified",
+                    "override": false,
+                    "read": "isModified",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setModified"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 41,
+                    "name": "hasSelectedText",
+                    "override": false,
+                    "read": "hasSelectedText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "lineNumber": 42,
+                    "name": "selectedText",
+                    "override": false,
+                    "read": "selectedText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "lineNumber": 43,
+                    "name": "dragEnabled",
+                    "override": false,
+                    "read": "dragEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDragEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "lineNumber": 44,
+                    "name": "readOnly",
+                    "override": false,
+                    "read": "isReadOnly",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setReadOnly"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "lineNumber": 45,
+                    "name": "undoAvailable",
+                    "override": false,
+                    "read": "isUndoAvailable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "lineNumber": 46,
+                    "name": "redoAvailable",
+                    "override": false,
+                    "read": "isRedoAvailable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 15,
+                    "lineNumber": 47,
+                    "name": "acceptableInput",
+                    "override": false,
+                    "read": "hasAcceptableInput",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 16,
+                    "lineNumber": 48,
+                    "name": "placeholderText",
+                    "override": false,
+                    "read": "placeholderText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setPlaceholderText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 17,
+                    "lineNumber": 49,
+                    "name": "cursorMoveStyle",
+                    "override": false,
+                    "read": "cursorMoveStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::CursorMoveStyle",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCursorMoveStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 18,
+                    "lineNumber": 50,
+                    "name": "clearButtonEnabled",
+                    "override": false,
+                    "read": "isClearButtonEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setClearButtonEnabled"
+                }
+            ],
+            "qualifiedClassName": "QLineEdit",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 168,
+                    "name": "textChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 169,
+                    "name": "textEdited",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 170,
+                    "name": "cursorPositionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 171,
+                    "name": "returnPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 172,
+                    "name": "editingFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 173,
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 174,
+                    "name": "inputRejected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 149,
+                    "name": "setText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 150,
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "lineNumber": 151,
+                    "name": "selectAll",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "lineNumber": 152,
+                    "name": "undo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "lineNumber": 153,
+                    "name": "redo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "lineNumber": 155,
+                    "name": "cut",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "isConst": true,
+                    "lineNumber": 156,
+                    "name": "copy",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "lineNumber": 157,
+                    "name": "paste",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlineedit.h",
+    "outputRevision": 69
+}

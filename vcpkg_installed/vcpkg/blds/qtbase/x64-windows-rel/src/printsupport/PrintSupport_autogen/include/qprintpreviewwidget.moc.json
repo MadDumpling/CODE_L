@@ -1,0 +1,27 @@
+{
+    "classes": [
+        {
+            "className": "GraphicsView",
+            "lineNumber": 108,
+            "object": true,
+            "qualifiedClassName": "QtPrivate::GraphicsView",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 120,
+                    "name": "resized",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qprintpreviewwidget.cpp",
+    "outputRevision": 69
+}

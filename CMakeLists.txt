@@ -21,3 +21,12 @@ target_link_libraries(CODE_L PRIVATE
     Qt6::OpenGLWidgets
     OpenGL::GL
 )
+find_package(Eigen3 REQUIRED)
+
+find_package(fmt CONFIG REQUIRED)
+
+find_package(spdlog CONFIG REQUIRED)
+
+find_package(nlohmann_json CONFIG REQUIRED)
+
+find_package(Catch2 CONFIG REQUIRED)

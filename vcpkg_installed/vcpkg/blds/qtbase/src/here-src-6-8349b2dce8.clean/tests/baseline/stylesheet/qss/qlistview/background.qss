@@ -1,3 +1,0 @@
-QAbstractItemView::item:only-one{
-    background-color: red;
-}

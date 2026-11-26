@@ -1,4 +1,0 @@
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include/../EWIEGA46WW/moc_qwindows11style_p.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include/../EWIEGA46WW/moc_qwindowsvistaanimation_p.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include/../EWIEGA46WW/moc_qwindowsvistastyle_p.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/styles/modernwindows/QModernWindowsStylePlugin_autogen/include/main.moc.json

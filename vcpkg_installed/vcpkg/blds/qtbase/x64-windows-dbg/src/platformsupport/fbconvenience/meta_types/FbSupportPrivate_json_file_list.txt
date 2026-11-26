@@ -1,3 +1,0 @@
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include/moc_qfbcursor_p.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include/moc_qfbscreen_p.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-dbg/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include/moc_qfbvthandler_p.cpp.json

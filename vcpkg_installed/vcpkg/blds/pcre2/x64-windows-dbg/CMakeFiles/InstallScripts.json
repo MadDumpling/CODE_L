@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-dbg/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

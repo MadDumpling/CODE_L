@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/md4c/x64-windows-dbg/cmake_install.cmake",
-		"C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/md4c/x64-windows-dbg/src/cmake_install.cmake",
-		"C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/md4c/x64-windows-dbg/md2html/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -1,3 +1,0 @@
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/config.tests/armintrin_sve/CMakeFiles/SimdTestsve.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/config.tests/armintrin_sve/CMakeFiles/edit_cache.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/config.tests/armintrin_sve/CMakeFiles/rebuild_cache.dir

@@ -1,2 +1,0 @@
-set(WrapScrewdriver_FOUND TRUE)
-set(QT_SCREW_DRIVER_LOADED TRUE)

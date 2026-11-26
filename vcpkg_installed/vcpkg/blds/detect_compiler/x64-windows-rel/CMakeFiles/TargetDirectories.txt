@@ -1,2 +1,0 @@
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/edit_cache.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/rebuild_cache.dir

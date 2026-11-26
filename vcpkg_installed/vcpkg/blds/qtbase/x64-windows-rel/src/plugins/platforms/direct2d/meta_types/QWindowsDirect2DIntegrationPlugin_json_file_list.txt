@@ -1,9 +1,0 @@
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include/../EWIEGA46WW/moc_qwindowsdirect2dnativeinterface.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include/../NBNPYD5AWH/moc_qwindowsuiabaseprovider.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include/../NBNPYD5AWH/moc_qwindowsuiamainprovider.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include/../NBNPYD5AWH/moc_qwindowsuiaprovidercache.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include/../UDBXYWGYQJ/moc_qwindowsinputcontext.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include/../UDBXYWGYQJ/moc_qwindowsmenu.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include/../UDBXYWGYQJ/moc_qwindowsnativeinterface.cpp.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include/qwindowsdialoghelpers.moc.json
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/plugins/platforms/direct2d/QWindowsDirect2DIntegrationPlugin_autogen/include/qwindowsdirect2dplatformplugin.moc.json

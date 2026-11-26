@@ -1,6 +1,0 @@
--o
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/qtbase/x64-windows-rel/src/corelib/kernel/moc_qobject.cpp
-kernel/qobject.h
---output-json
--DWIN32
---compiler-flavor=msvc

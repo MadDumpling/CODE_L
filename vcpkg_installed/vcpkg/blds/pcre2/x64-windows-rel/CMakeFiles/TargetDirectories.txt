@@ -1,9 +1,0 @@
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-rel/CMakeFiles/pcre2-8-shared.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-rel/CMakeFiles/pcre2-posix-shared.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-rel/CMakeFiles/pcre2-16-shared.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-rel/CMakeFiles/pcre2-32-shared.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-rel/CMakeFiles/edit_cache.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-rel/CMakeFiles/rebuild_cache.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-rel/CMakeFiles/list_install_components.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-rel/CMakeFiles/install.dir
-C:/Users/djc/source/repos/CODE_L/vcpkg_installed/vcpkg/blds/pcre2/x64-windows-rel/CMakeFiles/install/local.dir
